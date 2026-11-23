@@ -1,0 +1,15 @@
+TICKET CLOSED: DAILY NEWS - 2026-11-22 (satire card)
+HEADLINE: WINDOWS UPDATE FINALLY ACHIEVES ZERO-RESTART COMPUTING: APPS NO LONGER START EITHER
+CAST: Brenda (customer), David (IT), Dr. Pat Reboot (fake expert quote)
+SOURCE: https://www.neowin.net/news/microsoft-confirms-november-2026-windows-11-hotpatch-breaks-app-installs-and-launches/ (Neowin, Nov 19 2026: Microsoft confirms hotpatch KB5132043 can cause 0xC0000099 errors installing/opening apps that use 32-bit msi.dll; temporary registry workaround HotPatchTableSize=2000)
+IMAGE: card image not stored here (posted manually from phone)
+
+FACEBOOK CAPTION:
+Microsoft says this month's Windows 11 hotpatch (KB5132043) can break app installs and launches with error 0xC0000099. The update promised no restart. It did not promise the apps would start. The temporary fix is a registry edit, so bring coffee and a backup. Ticket closed. (Resolution: regedit.)
+#ITHumor #HelpDesk #Windows11 #SysAdmin #TicketClosed
+
+INSTAGRAM CAPTION:
+Microsoft says this month's Windows 11 hotpatch (KB5132043) can break app installs and launches with error 0xC0000099. The update promised no restart. It did not promise the apps would start. The temporary fix is a registry edit, so bring coffee and a backup. Ticket closed. (Resolution: regedit.)
+#ITHumor #HelpDesk #Windows11 #SysAdmin #ITSupport #TechHumor #Microsoft #PatchTuesday #ITLife #DesktopSupport #TicketClosed #SysadminLife
+
+POST STATUS: POSTED MANUALLY to Facebook and Instagram by David on 2026-11-22.

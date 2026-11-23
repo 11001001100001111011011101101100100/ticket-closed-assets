@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-11-29 (Sunday)
+POST TIME: 2:00 PM ET
+TITLE: THIS PC HAS BEEN UP 43 DAYS?
+HOST: David (IT)
+IMAGE: 2026-11-29_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+"I restart it every night." Let's check. Shut down is not restart when Fast Startup is on.
+
+Open PowerShell as Administrator and run:
+$boot = (Get-CimInstance Win32_OperatingSystem).LastBootUpTime
+(Get-Date) - $boot
+
+Heads up: Use Restart, not Shut down, for a full reboot. Why it works: Fast Startup saves the kernel session, so Shut down skips a true boot. Ticket closed. (Resolution: restart (the real one).)
+#FastStartup #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+"I restart it every night." Let's check. Shut down is not restart when Fast Startup is on.
+
+Open PowerShell as Administrator and run:
+$boot = (Get-CimInstance Win32_OperatingSystem).LastBootUpTime
+(Get-Date) - $boot
+
+Heads up: Use Restart, not Shut down, for a full reboot. Why it works: Fast Startup saves the kernel session, so Shut down skips a true boot. Ticket closed. (Resolution: restart (the real one).)
+Save this for the next time you need it.
+#FastStartup #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

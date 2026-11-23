@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-05 (Saturday)
+POST TIME: 2:00 PM ET
+TITLE: OUTLOOK STUCK ON LOADING PROFILE?
+HOST: David (IT)
+IMAGE: 2026-12-05_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Start Outlook without add-ins. Press Win+R and type one of these.
+
+Press Win+R and run:
+outlook.exe /safe
+# Still odd? Reset the navigation pane
+outlook.exe /resetnavpane
+
+Heads up: /resetnavpane resets your folder pane layout and favorites. Why it works: a bad add-in is a common reason Outlook hangs on startup. Ticket closed. (Resolution: safe mode.)
+#Outlook #Microsoft365 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Start Outlook without add-ins. Press Win+R and type one of these.
+
+Press Win+R and run:
+outlook.exe /safe
+# Still odd? Reset the navigation pane
+outlook.exe /resetnavpane
+
+Heads up: /resetnavpane resets your folder pane layout and favorites. Why it works: a bad add-in is a common reason Outlook hangs on startup. Ticket closed. (Resolution: safe mode.)
+Save this for the next time you need it.
+#Outlook #Microsoft365 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

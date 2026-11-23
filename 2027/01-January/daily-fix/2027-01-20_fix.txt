@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-20 (Wednesday)
+POST TIME: 2:00 PM ET
+TITLE: BLUETOOTH DEVICE VANISHED?
+HOST: David (IT)
+IMAGE: 2027-01-20_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Before you re-pair anything, restart the Bluetooth service.
+
+Open PowerShell as Administrator and run:
+Restart-Service -Name bthserv
+Get-Service -Name bthserv
+
+Heads up: Connected devices may drop for a few seconds while it restarts. Why it works: the service can stall after sleep or a driver change. Ticket closed. (Resolution: Bluetooth restarted.)
+#Bluetooth #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Before you re-pair anything, restart the Bluetooth service.
+
+Open PowerShell as Administrator and run:
+Restart-Service -Name bthserv
+Get-Service -Name bthserv
+
+Heads up: Connected devices may drop for a few seconds while it restarts. Why it works: the service can stall after sleep or a driver change. Ticket closed. (Resolution: Bluetooth restarted.)
+Save this for the next time you need it.
+#Bluetooth #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

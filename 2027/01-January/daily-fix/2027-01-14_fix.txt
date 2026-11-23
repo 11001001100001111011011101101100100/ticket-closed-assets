@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-14 (Thursday)
+POST TIME: 2:00 PM ET
+TITLE: WONDERING WHICH DRIVERS ARE OLD?
+HOST: David (IT)
+IMAGE: 2027-01-14_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Sort the installed drivers by date and look at the oldest ones first.
+
+Open PowerShell and run:
+Get-CimInstance Win32_PnPSignedDriver |
+  Where-Object DeviceName | Sort-Object DriverDate |
+  Select-Object -First 10 DeviceName, DriverVersion, DriverDate
+
+Heads up: Old doesn't mean broken. Update from the maker's site, not a driver tool. Why it works: each driver records its version and release date. Ticket closed. (Resolution: drivers listed.)
+#Drivers #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Sort the installed drivers by date and look at the oldest ones first.
+
+Open PowerShell and run:
+Get-CimInstance Win32_PnPSignedDriver |
+  Where-Object DeviceName | Sort-Object DriverDate |
+  Select-Object -First 10 DeviceName, DriverVersion, DriverDate
+
+Heads up: Old doesn't mean broken. Update from the maker's site, not a driver tool. Why it works: each driver records its version and release date. Ticket closed. (Resolution: drivers listed.)
+Save this for the next time you need it.
+#Drivers #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

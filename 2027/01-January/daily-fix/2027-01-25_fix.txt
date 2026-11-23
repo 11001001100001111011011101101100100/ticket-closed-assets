@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-25 (Monday)
+POST TIME: 2:00 PM ET
+TITLE: NEED TO SEND A WHOLE FOLDER?
+HOST: David (IT)
+IMAGE: 2027-01-25_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Zip the folder from the command line. One file instead of fifty attachments.
+
+Open PowerShell and run:
+Compress-Archive -Path "$env:USERPROFILE\Documents\Project" `
+  -DestinationPath "$env:USERPROFILE\Desktop\Project.zip"
+
+Heads up: Example paths. Compress-Archive can fail on files over 2 GB in Windows PowerShell 5.1. Why it works: it packs the whole folder into one compressed file. Ticket closed. (Resolution: zipped.)
+#Productivity #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Zip the folder from the command line. One file instead of fifty attachments.
+
+Open PowerShell and run:
+Compress-Archive -Path "$env:USERPROFILE\Documents\Project" `
+  -DestinationPath "$env:USERPROFILE\Desktop\Project.zip"
+
+Heads up: Example paths. Compress-Archive can fail on files over 2 GB in Windows PowerShell 5.1. Why it works: it packs the whole folder into one compressed file. Ticket closed. (Resolution: zipped.)
+Save this for the next time you need it.
+#Productivity #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

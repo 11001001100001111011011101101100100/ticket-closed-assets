@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-03 (Sunday)
+POST TIME: 2:00 PM ET
+TITLE: "I DIDN'T CHANGE ANYTHING." REALLY?
+HOST: David (IT)
+IMAGE: 2027-01-03_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+List the files in Documents that changed in the last day. The logs and the file system agree more often than people do.
+
+Open PowerShell and run:
+Get-ChildItem "$env:USERPROFILE\Documents" -Recurse -File |
+  Where-Object LastWriteTime -gt (Get-Date).AddDays(-1) |
+  Select-Object FullName, LastWriteTime
+
+Heads up: Slow on big folders. Change the path to check another location. Why it works: every file records when it was last written. Ticket closed. (Resolution: changes found.)
+#Troubleshooting #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+List the files in Documents that changed in the last day. The logs and the file system agree more often than people do.
+
+Open PowerShell and run:
+Get-ChildItem "$env:USERPROFILE\Documents" -Recurse -File |
+  Where-Object LastWriteTime -gt (Get-Date).AddDays(-1) |
+  Select-Object FullName, LastWriteTime
+
+Heads up: Slow on big folders. Change the path to check another location. Why it works: every file records when it was last written. Ticket closed. (Resolution: changes found.)
+Save this for the next time you need it.
+#Troubleshooting #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

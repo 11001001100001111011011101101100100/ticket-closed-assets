@@ -1,0 +1,25 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-04 (Monday)
+POST TIME: 2:00 PM ET
+TITLE: IS THE PC EVEN ONLINE?
+HOST: David (IT)
+IMAGE: 2027-01-04_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+First Monday back. Before you open a ticket, check whether the machine answers at all.
+
+Open PowerShell and run:
+Test-Connection PC01 -Count 2 -Quiet
+
+Heads up: PC01 is an example. Firewalls can block pings, so False isn't proof it's off. Why it works: it sends two pings and returns True or False. Ticket closed. (Resolution: ping answered.)
+#RemoteSupport #Networking #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+First Monday back. Before you open a ticket, check whether the machine answers at all.
+
+Open PowerShell and run:
+Test-Connection PC01 -Count 2 -Quiet
+
+Heads up: PC01 is an example. Firewalls can block pings, so False isn't proof it's off. Why it works: it sends two pings and returns True or False. Ticket closed. (Resolution: ping answered.)
+Save this for the next time you need it.
+#RemoteSupport #Networking #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

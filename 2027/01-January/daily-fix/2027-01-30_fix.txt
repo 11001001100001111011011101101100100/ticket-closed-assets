@@ -1,0 +1,25 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-30 (Saturday)
+POST TIME: 2:00 PM ET
+TITLE: NEED THE MAC ADDRESS?
+HOST: David (IT)
+IMAGE: 2027-01-30_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Allow-listing a device? Get the adapter name, status and MAC address.
+
+Open PowerShell and run:
+Get-NetAdapter | Select-Object Name, Status, MacAddress, LinkSpeed
+
+Heads up: Wi-Fi may use a random address per network. That's a privacy feature. Why it works: each adapter reports its physical address and link speed. Ticket closed. (Resolution: MAC found.)
+#Networking #Inventory #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Allow-listing a device? Get the adapter name, status and MAC address.
+
+Open PowerShell and run:
+Get-NetAdapter | Select-Object Name, Status, MacAddress, LinkSpeed
+
+Heads up: Wi-Fi may use a random address per network. That's a privacy feature. Why it works: each adapter reports its physical address and link speed. Ticket closed. (Resolution: MAC found.)
+Save this for the next time you need it.
+#Networking #Inventory #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

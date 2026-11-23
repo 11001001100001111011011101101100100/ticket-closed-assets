@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-30 (Wednesday)
+POST TIME: 2:00 PM ET
+TITLE: WHAT UPDATES ARE INSTALLED?
+HOST: David (IT)
+IMAGE: 2026-12-30_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Year-end audit. List the ten most recent updates and when each one landed.
+
+Open PowerShell and run:
+Get-HotFix | Sort-Object InstalledOn -Descending |
+  Select-Object -First 10 HotFixID, InstalledOn
+
+Heads up: Not every update type shows up here. Check Update history for the full list. Why it works: it reads the installed update log, newest first. Ticket closed. (Resolution: patches listed.)
+#Patching #Audit #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Year-end audit. List the ten most recent updates and when each one landed.
+
+Open PowerShell and run:
+Get-HotFix | Sort-Object InstalledOn -Descending |
+  Select-Object -First 10 HotFixID, InstalledOn
+
+Heads up: Not every update type shows up here. Check Update history for the full list. Why it works: it reads the installed update log, newest first. Ticket closed. (Resolution: patches listed.)
+Save this for the next time you need it.
+#Patching #Audit #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

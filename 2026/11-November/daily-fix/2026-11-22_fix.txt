@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-11-22 (Sunday)
+POST TIME: 2:00 PM ET
+TITLE: PRINT JOB STUCK IN THE QUEUE?
+HOST: David (IT)
+IMAGE: 2026-11-22_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Printer says "printing" for three hours? Don't reinstall it. Restart the spooler and clear the queue.
+
+Open PowerShell as Administrator and run:
+Stop-Service -Name Spooler -Force
+Remove-Item "$env:SystemRoot\System32\spool\PRINTERS\*" -Force
+Start-Service -Name Spooler
+
+Heads up: Clears every queued print job. Save your work first. Why it works: jobs wait in a folder. One bad file blocks the rest. Ticket closed. (Resolution: spooler.)
+#PrinterProblems #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Printer says "printing" for three hours? Don't reinstall it. Restart the spooler and clear the queue.
+
+Open PowerShell as Administrator and run:
+Stop-Service -Name Spooler -Force
+Remove-Item "$env:SystemRoot\System32\spool\PRINTERS\*" -Force
+Start-Service -Name Spooler
+
+Heads up: Clears every queued print job. Save your work first. Why it works: jobs wait in a folder. One bad file blocks the rest. Ticket closed. (Resolution: spooler.)
+Save this for the next time you need it.
+#PrinterProblems #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

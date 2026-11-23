@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-04 (Friday)
+POST TIME: 2:00 PM ET
+TITLE: WORRIED ABOUT DISK ERRORS?
+HOST: David (IT)
+IMAGE: 2026-12-04_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Run the online scan first. It checks the disk without taking the PC down.
+
+Open Command Prompt as Administrator and run:
+chkdsk C: /scan
+# Errors found? chkdsk C: /f (needs a reboot)
+
+Heads up: Back up first if the disk is making noises or SMART is failing. Why it works: most file system problems show up in a scan before they become a crash. Ticket closed. (Resolution: disk checked.)
+#Chkdsk #Storage #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Run the online scan first. It checks the disk without taking the PC down.
+
+Open Command Prompt as Administrator and run:
+chkdsk C: /scan
+# Errors found? chkdsk C: /f (needs a reboot)
+
+Heads up: Back up first if the disk is making noises or SMART is failing. Why it works: most file system problems show up in a scan before they become a crash. Ticket closed. (Resolution: disk checked.)
+Save this for the next time you need it.
+#Chkdsk #Storage #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

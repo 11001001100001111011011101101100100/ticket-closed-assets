@@ -1,0 +1,25 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-02 (Saturday)
+POST TIME: 2:00 PM ET
+TITLE: WHO ARE THE LOCAL ADMINS?
+HOST: David (IT)
+IMAGE: 2027-01-02_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Know who has the keys. List the members of the local Administrators group.
+
+Open PowerShell as Administrator and run:
+Get-LocalGroupMember -Group Administrators
+
+Heads up: Unexpected names deserve a closer look. Don't remove anyone until you know why they're there. Why it works: admin sprawl is how small mistakes become big ones. Ticket closed. (Resolution: admins reviewed.)
+#Security #LocalAdmin #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Know who has the keys. List the members of the local Administrators group.
+
+Open PowerShell as Administrator and run:
+Get-LocalGroupMember -Group Administrators
+
+Heads up: Unexpected names deserve a closer look. Don't remove anyone until you know why they're there. Why it works: admin sprawl is how small mistakes become big ones. Ticket closed. (Resolution: admins reviewed.)
+Save this for the next time you need it.
+#Security #LocalAdmin #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-06 (Sunday)
+POST TIME: 2:00 PM ET
+TITLE: WINDOWS SEARCH FINDS NOTHING?
+HOST: David (IT)
+IMAGE: 2026-12-06_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Search finds nothing? Restart the search service before you rebuild anything.
+
+Open PowerShell as Administrator and run:
+Restart-Service -Name WSearch
+Get-Service -Name WSearch
+
+Heads up: Still empty after that? Rebuild the index in Indexing Options. Why it works: the service can hang, and a restart is quicker than a rebuild. Ticket closed. (Resolution: reindexed.)
+#WindowsSearch #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Search finds nothing? Restart the search service before you rebuild anything.
+
+Open PowerShell as Administrator and run:
+Restart-Service -Name WSearch
+Get-Service -Name WSearch
+
+Heads up: Still empty after that? Rebuild the index in Indexing Options. Why it works: the service can hang, and a restart is quicker than a rebuild. Ticket closed. (Resolution: reindexed.)
+Save this for the next time you need it.
+#WindowsSearch #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

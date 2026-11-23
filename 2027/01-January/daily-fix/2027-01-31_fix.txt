@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-31 (Sunday)
+POST TIME: 2:00 PM ET
+TITLE: CAN'T FIND THAT FILE?
+HOST: David (IT)
+IMAGE: 2027-01-31_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Month end. Search for it by extension instead of by memory.
+
+Open PowerShell and run:
+Get-ChildItem C:\Users -Recurse -Filter "*.xlsx" `
+  -ErrorAction SilentlyContinue |
+  Select-Object -First 20 FullName, LastWriteTime
+
+Heads up: Slow on big drives. Change *.xlsx to the type you need. Why it works: the filter matches the extension while it walks the folders. Ticket closed. (Resolution: file found.)
+#Productivity #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Month end. Search for it by extension instead of by memory.
+
+Open PowerShell and run:
+Get-ChildItem C:\Users -Recurse -Filter "*.xlsx" `
+  -ErrorAction SilentlyContinue |
+  Select-Object -First 20 FullName, LastWriteTime
+
+Heads up: Slow on big drives. Change *.xlsx to the type you need. Why it works: the filter matches the extension while it walks the folders. Ticket closed. (Resolution: file found.)
+Save this for the next time you need it.
+#Productivity #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

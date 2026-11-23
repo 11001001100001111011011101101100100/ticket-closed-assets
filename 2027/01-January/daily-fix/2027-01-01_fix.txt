@@ -1,0 +1,31 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-01 (Friday)
+POST TIME: 2:00 PM ET
+TITLE: HOW FULL IS THE DISK?
+HOST: David (IT)
+IMAGE: 2027-01-01_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+New year, check the disk before it checks you. Free and used space per drive.
+
+Open PowerShell and run:
+Get-PSDrive -PSProvider FileSystem |
+  Select-Object Name,
+  @{n='UsedGB'; e={[math]::Round($_.Used/1GB,1)}},
+  @{n='FreeGB'; e={[math]::Round($_.Free/1GB,1)}}
+
+Heads up: Network drives can show blank values. Look at the local ones. Why it works: it reads the drive's used and free bytes and converts them to GB. Ticket closed. (Resolution: space known.)
+#DiskSpace #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+New year, check the disk before it checks you. Free and used space per drive.
+
+Open PowerShell and run:
+Get-PSDrive -PSProvider FileSystem |
+  Select-Object Name,
+  @{n='UsedGB'; e={[math]::Round($_.Used/1GB,1)}},
+  @{n='FreeGB'; e={[math]::Round($_.Free/1GB,1)}}
+
+Heads up: Network drives can show blank values. Look at the local ones. Why it works: it reads the drive's used and free bytes and converts them to GB. Ticket closed. (Resolution: space known.)
+Save this for the next time you need it.
+#DiskSpace #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-11-27 (Friday)
+POST TIME: 2:00 PM ET
+TITLE: TASKBAR OR START MENU FROZEN?
+HOST: David (IT)
+IMAGE: 2026-11-27_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Taskbar dead? Start menu stuck? Restart Explorer. Windows brings it back on its own.
+
+Open PowerShell as Administrator and run:
+# Windows relaunches it in a second
+Stop-Process -Name explorer -Force
+
+Heads up: Open File Explorer windows will close. Save anything in them first. Why it works: the desktop shell is just a process, and it can be restarted. Ticket closed. (Resolution: explorer restarted.)
+#Windows11 #Explorer #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Taskbar dead? Start menu stuck? Restart Explorer. Windows brings it back on its own.
+
+Open PowerShell as Administrator and run:
+# Windows relaunches it in a second
+Stop-Process -Name explorer -Force
+
+Heads up: Open File Explorer windows will close. Save anything in them first. Why it works: the desktop shell is just a process, and it can be restarted. Ticket closed. (Resolution: explorer restarted.)
+Save this for the next time you need it.
+#Windows11 #Explorer #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

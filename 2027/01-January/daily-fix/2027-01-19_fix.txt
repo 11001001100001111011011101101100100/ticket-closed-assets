@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-19 (Tuesday)
+POST TIME: 2:00 PM ET
+TITLE: WHEN DID THAT REMOTE PC LAST REBOOT?
+HOST: David (IT)
+IMAGE: 2027-01-19_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Ask the remote PC when it last started. No need to bother the user.
+
+Open PowerShell as Administrator and run:
+(Get-CimInstance Win32_OperatingSystem `
+  -ComputerName PC01).LastBootUpTime
+
+Heads up: PC01 is an example. Needs remote management access and a free firewall path. Why it works: the OS records its last boot time, and CIM can read it remotely. Ticket closed. (Resolution: uptime known.)
+#RemoteSupport #CIM #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Ask the remote PC when it last started. No need to bother the user.
+
+Open PowerShell as Administrator and run:
+(Get-CimInstance Win32_OperatingSystem `
+  -ComputerName PC01).LastBootUpTime
+
+Heads up: PC01 is an example. Needs remote management access and a free firewall path. Why it works: the OS records its last boot time, and CIM can read it remotely. Ticket closed. (Resolution: uptime known.)
+Save this for the next time you need it.
+#RemoteSupport #CIM #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

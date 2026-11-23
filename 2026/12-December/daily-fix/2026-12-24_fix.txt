@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-24 (Thursday)
+POST TIME: 2:00 PM ET
+TITLE: SLOW BOOT? CHECK STARTUP PROGRAMS.
+HOST: David (IT)
+IMAGE: 2026-12-24_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Everything that launches at sign-in slows you down. List it, then switch off what you don't need.
+
+Open PowerShell and run:
+Get-CimInstance Win32_StartupCommand |
+  Select-Object Name, Command, Location
+
+Heads up: This only lists them. Turn items off in Task Manager under Startup apps. Why it works: every item here starts at sign-in and competes for resources. Ticket closed. (Resolution: startup trimmed.)
+#Startup #Performance #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Everything that launches at sign-in slows you down. List it, then switch off what you don't need.
+
+Open PowerShell and run:
+Get-CimInstance Win32_StartupCommand |
+  Select-Object Name, Command, Location
+
+Heads up: This only lists them. Turn items off in Task Manager under Startup apps. Why it works: every item here starts at sign-in and competes for resources. Ticket closed. (Resolution: startup trimmed.)
+Save this for the next time you need it.
+#Startup #Performance #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

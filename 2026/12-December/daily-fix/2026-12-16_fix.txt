@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-16 (Wednesday)
+POST TIME: 2:00 PM ET
+TITLE: TRUST RELATIONSHIP FAILED?
+HOST: David (IT)
+IMAGE: 2026-12-16_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+"The trust relationship failed." Test the secure channel first. Repair it if it's broken.
+
+Open PowerShell as Administrator and run:
+Test-ComputerSecureChannel -Verbose
+Test-ComputerSecureChannel -Repair -Credential (Get-Credential)
+
+Heads up: Needs a network path to a domain controller and rights to reset the account. Why it works: the PC's password with the domain drifted, and this resets it. Ticket closed. (Resolution: trust restored.)
+#ActiveDirectory #Domain #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+"The trust relationship failed." Test the secure channel first. Repair it if it's broken.
+
+Open PowerShell as Administrator and run:
+Test-ComputerSecureChannel -Verbose
+Test-ComputerSecureChannel -Repair -Credential (Get-Credential)
+
+Heads up: Needs a network path to a domain controller and rights to reset the account. Why it works: the PC's password with the domain drifted, and this resets it. Ticket closed. (Resolution: trust restored.)
+Save this for the next time you need it.
+#ActiveDirectory #Domain #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

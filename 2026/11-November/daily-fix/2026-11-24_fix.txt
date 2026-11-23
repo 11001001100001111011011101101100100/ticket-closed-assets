@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-11-24 (Tuesday)
+POST TIME: 2:00 PM ET
+TITLE: WINDOWS ACTING WEIRD FOR NO REASON?
+HOST: David (IT)
+IMAGE: 2026-11-24_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Random crashes, broken apps, odd errors? Repair the Windows image first, then scan the system files.
+
+Open Command Prompt as Administrator and run:
+DISM /Online /Cleanup-Image /RestoreHealth
+sfc /scannow
+
+Heads up: Let both finish. Closing the window halfway helps nobody. Why it works: DISM repairs the source files, then sfc uses them to fix the rest. Ticket closed. (Resolution: sfc and DISM.)
+#Windows11 #SFC #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Random crashes, broken apps, odd errors? Repair the Windows image first, then scan the system files.
+
+Open Command Prompt as Administrator and run:
+DISM /Online /Cleanup-Image /RestoreHealth
+sfc /scannow
+
+Heads up: Let both finish. Closing the window halfway helps nobody. Why it works: DISM repairs the source files, then sfc uses them to fix the rest. Ticket closed. (Resolution: sfc and DISM.)
+Save this for the next time you need it.
+#Windows11 #SFC #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-23 (Wednesday)
+POST TIME: 2:00 PM ET
+TITLE: WHICH APP IS USING ALL THE RAM?
+HOST: David (IT)
+IMAGE: 2026-12-23_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Before you blame the hardware, check what's actually holding the memory.
+
+Open PowerShell and run:
+Get-Process | Sort-Object WorkingSet64 -Descending |
+  Select-Object -First 10 Name,
+  @{n='MB'; e={[int]($_.WorkingSet64/1MB)}}
+
+Heads up: Browsers split into many processes. Add up the rows with the same name. Why it works: working set is the memory a process holds right now, shown here in MB. Ticket closed. (Resolution: RAM hog found.)
+#Performance #Memory #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Before you blame the hardware, check what's actually holding the memory.
+
+Open PowerShell and run:
+Get-Process | Sort-Object WorkingSet64 -Descending |
+  Select-Object -First 10 Name,
+  @{n='MB'; e={[int]($_.WorkingSet64/1MB)}}
+
+Heads up: Browsers split into many processes. Add up the rows with the same name. Why it works: working set is the memory a process holds right now, shown here in MB. Ticket closed. (Resolution: RAM hog found.)
+Save this for the next time you need it.
+#Performance #Memory #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

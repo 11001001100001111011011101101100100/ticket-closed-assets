@@ -1,0 +1,25 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-28 (Monday)
+POST TIME: 2:00 PM ET
+TITLE: IS WINDOWS ACTIVATED?
+HOST: David (IT)
+IMAGE: 2026-12-28_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Skip the settings maze. One command reports the activation status and expiry.
+
+Open Command Prompt and run:
+cscript //nologo %windir%\system32\slmgr.vbs /xpr
+
+Heads up: Volume-licensed PCs may show an expiry date. That is normal for KMS. Why it works: slmgr reads the license state straight from Windows. Ticket closed. (Resolution: activation checked.)
+#Licensing #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Skip the settings maze. One command reports the activation status and expiry.
+
+Open Command Prompt and run:
+cscript //nologo %windir%\system32\slmgr.vbs /xpr
+
+Heads up: Volume-licensed PCs may show an expiry date. That is normal for KMS. Why it works: slmgr reads the license state straight from Windows. Ticket closed. (Resolution: activation checked.)
+Save this for the next time you need it.
+#Licensing #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

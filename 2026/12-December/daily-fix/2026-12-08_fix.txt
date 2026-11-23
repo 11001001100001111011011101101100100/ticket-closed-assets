@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-08 (Tuesday)
+POST TIME: 2:00 PM ET
+TITLE: GROUP POLICY NOT APPLYING?
+HOST: David (IT)
+IMAGE: 2026-12-08_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Force a refresh, then see which policies actually landed.
+
+Open Command Prompt as Administrator and run:
+gpupdate /force
+gpresult /r
+
+Heads up: Some settings only apply after a sign-out or a restart. Why it works: gpresult shows what applied and which policies were filtered out. Ticket closed. (Resolution: policy applied.)
+#GroupPolicy #ActiveDirectory #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Force a refresh, then see which policies actually landed.
+
+Open Command Prompt as Administrator and run:
+gpupdate /force
+gpresult /r
+
+Heads up: Some settings only apply after a sign-out or a restart. Why it works: gpresult shows what applied and which policies were filtered out. Ticket closed. (Resolution: policy applied.)
+Save this for the next time you need it.
+#GroupPolicy #ActiveDirectory #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

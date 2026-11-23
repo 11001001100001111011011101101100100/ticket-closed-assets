@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-31 (Thursday)
+POST TIME: 2:00 PM ET
+TITLE: IS A RESTART WAITING TO HAPPEN?
+HOST: David (IT)
+IMAGE: 2026-12-31_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Before the year ends, check whether Windows is waiting for a restart.
+
+Open PowerShell as Administrator and run:
+$k = "HKLM:\SOFTWARE\Microsoft\Windows"
+Test-Path "$k\CurrentVersion\WindowsUpdate\Auto Update\RebootRequired"
+Test-Path "$k\CurrentVersion\Component Based Servicing\RebootPending"
+
+Heads up: True means a restart is pending. False doesn't rule out every case. Why it works: Windows sets these keys when an install needs a reboot to finish. Ticket closed. (Resolution: reboot checked.)
+#Patching #NewYear #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Before the year ends, check whether Windows is waiting for a restart.
+
+Open PowerShell as Administrator and run:
+$k = "HKLM:\SOFTWARE\Microsoft\Windows"
+Test-Path "$k\CurrentVersion\WindowsUpdate\Auto Update\RebootRequired"
+Test-Path "$k\CurrentVersion\Component Based Servicing\RebootPending"
+
+Heads up: True means a restart is pending. False doesn't rule out every case. Why it works: Windows sets these keys when an install needs a reboot to finish. Ticket closed. (Resolution: reboot checked.)
+Save this for the next time you need it.
+#Patching #NewYear #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

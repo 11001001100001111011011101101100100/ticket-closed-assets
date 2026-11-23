@@ -1,0 +1,25 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-07 (Thursday)
+POST TIME: 2:00 PM ET
+TITLE: WEBSITE WON'T LOAD ON ONE PC?
+HOST: David (IT)
+IMAGE: 2027-01-07_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+One PC can't reach a site the others can? Check the hosts file for a leftover override.
+
+Open PowerShell and run:
+Get-Content "$env:SystemRoot\System32\drivers\etc\hosts"
+
+Heads up: Lines starting with # are comments. Back up the file before you edit it as admin. Why it works: a hosts entry beats DNS, so one stale line can break one site. Ticket closed. (Resolution: hosts checked.)
+#Networking #DNS #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+One PC can't reach a site the others can? Check the hosts file for a leftover override.
+
+Open PowerShell and run:
+Get-Content "$env:SystemRoot\System32\drivers\etc\hosts"
+
+Heads up: Lines starting with # are comments. Back up the file before you edit it as admin. Why it works: a hosts entry beats DNS, so one stale line can break one site. Ticket closed. (Resolution: hosts checked.)
+Save this for the next time you need it.
+#Networking #DNS #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

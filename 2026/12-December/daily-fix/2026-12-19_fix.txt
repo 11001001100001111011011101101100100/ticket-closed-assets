@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-19 (Saturday)
+POST TIME: 2:00 PM ET
+TITLE: NETWORK ADAPTER STUCK?
+HOST: David (IT)
+IMAGE: 2026-12-19_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+List the adapters, then restart the one that's misbehaving. Quicker than a full reboot.
+
+Open PowerShell as Administrator and run:
+Get-NetAdapter
+Restart-NetAdapter -Name "Wi-Fi"
+
+Heads up: Drops that connection briefly. Don't do it over a remote session on that adapter. Why it works: it resets the driver and link without a reboot. Ticket closed. (Resolution: adapter restarted.)
+#Networking #WiFi #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+List the adapters, then restart the one that's misbehaving. Quicker than a full reboot.
+
+Open PowerShell as Administrator and run:
+Get-NetAdapter
+Restart-NetAdapter -Name "Wi-Fi"
+
+Heads up: Drops that connection briefly. Don't do it over a remote session on that adapter. Why it works: it resets the driver and link without a reboot. Ticket closed. (Resolution: adapter restarted.)
+Save this for the next time you need it.
+#Networking #WiFi #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

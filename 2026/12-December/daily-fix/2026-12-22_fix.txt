@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-22 (Tuesday)
+POST TIME: 2:00 PM ET
+TITLE: WHAT IS EATING YOUR CPU?
+HOST: David (IT)
+IMAGE: 2026-12-22_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Slow PC? Rank the processes by how much processor time they've used. The top one is usually the answer.
+
+Open PowerShell and run:
+Get-Process | Sort-Object CPU -Descending |
+  Select-Object -First 10 Name, Id, CPU
+
+Heads up: CPU here is total seconds used, not live percent. Run it twice and compare. Why it works: long-running heavy processes float to the top of the list. Ticket closed. (Resolution: culprit found.)
+#Performance #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Slow PC? Rank the processes by how much processor time they've used. The top one is usually the answer.
+
+Open PowerShell and run:
+Get-Process | Sort-Object CPU -Descending |
+  Select-Object -First 10 Name, Id, CPU
+
+Heads up: CPU here is total seconds used, not live percent. Run it twice and compare. Why it works: long-running heavy processes float to the top of the list. Ticket closed. (Resolution: culprit found.)
+Save this for the next time you need it.
+#Performance #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

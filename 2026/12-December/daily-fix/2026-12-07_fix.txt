@@ -1,0 +1,25 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-07 (Monday)
+POST TIME: 2:00 PM ET
+TITLE: NO SOUND AND THE VOLUME IS FINE?
+HOST: David (IT)
+IMAGE: 2026-12-07_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Before you reinstall drivers, restart the audio service.
+
+Open PowerShell as Administrator and run:
+Restart-Service -Name Audiosrv -Force
+
+Heads up: Audio may cut out for a second while it restarts. Why it works: the audio service can stall after sleep, a dock change or an update. Ticket closed. (Resolution: sound back.)
+#Audio #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Before you reinstall drivers, restart the audio service.
+
+Open PowerShell as Administrator and run:
+Restart-Service -Name Audiosrv -Force
+
+Heads up: Audio may cut out for a second while it restarts. Why it works: the audio service can stall after sleep, a dock change or an update. Ticket closed. (Resolution: sound back.)
+Save this for the next time you need it.
+#Audio #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

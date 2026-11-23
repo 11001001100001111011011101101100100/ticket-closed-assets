@@ -1,0 +1,15 @@
+DATE: 2026-11-23
+FORMAT: TICKET CLOSED: DAILY NEWS satire card (Chad / David / Dr. Pat Reboot)
+HEADLINE: UPDATE THAT NEEDS NO RESTART ALSO NEEDS NO PRINTING: OFFICE GOES PAPERLESS AGAINST ITS WILL
+SOURCE: https://windowsreport.com/microsoft-confirms-windows-11-kb5132043-hotpatch-breaks-printing-for-forcepoint-users/ (Microsoft service alert WI1562175; hotpatch KB5132043 + Forcepoint DLP Endpoint Agent on Windows 11 24H2+: Print greyed out, Print Spooler won't start; workaround exists, no permanent fix)
+IMAGE: card image not stored here
+
+FB CAPTION:
+Satire from Ticket Closed: Daily News. Microsoft confirms hotpatch KB5132043 can leave Windows 11 PCs running Forcepoint DLP with a greyed-out Print button. The update said no restart. It said nothing about printing. Resolution: patched into paperless. Ticket closed.
+#ITHumor #HelpDesk #Windows11 #SysAdmin #TicketClosed
+
+IG CAPTION:
+Satire from Ticket Closed: Daily News. Microsoft confirms hotpatch KB5132043 can leave Windows 11 PCs running Forcepoint DLP with a greyed-out Print button. The update said no restart. It said nothing about printing. Resolution: patched into paperless. Ticket closed.
+#ITHumor #HelpDesk #Windows11 #SysAdmin #ITSupport #TechHumor #Microsoft #Hotpatch #PrintSpooler #ITLife #DesktopSupport #TicketClosed
+
+POST STATUS: Facebook post verified published on 2026-11-23. Instagram: confirm.

@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-21 (Thursday)
+POST TIME: 2:00 PM ET
+TITLE: READY FOR WINDOWS 11?
+HOST: David (IT)
+IMAGE: 2027-01-21_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Two things block most upgrades. Check Secure Boot and the TPM.
+
+Open PowerShell as Administrator and run:
+Confirm-SecureBootUEFI
+Get-Tpm
+
+Heads up: Confirm-SecureBootUEFI errors on older BIOS-mode PCs. That result is useful too. Why it works: Windows 11 needs both Secure Boot capability and a TPM. Ticket closed. (Resolution: Windows 11 ready.)
+#Windows11 #Security #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Two things block most upgrades. Check Secure Boot and the TPM.
+
+Open PowerShell as Administrator and run:
+Confirm-SecureBootUEFI
+Get-Tpm
+
+Heads up: Confirm-SecureBootUEFI errors on older BIOS-mode PCs. That result is useful too. Why it works: Windows 11 needs both Secure Boot capability and a TPM. Ticket closed. (Resolution: Windows 11 ready.)
+Save this for the next time you need it.
+#Windows11 #Security #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

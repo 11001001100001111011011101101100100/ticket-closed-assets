@@ -1,0 +1,25 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-27 (Wednesday)
+POST TIME: 2:00 PM ET
+TITLE: WHAT IS THIS PC'S IP ADDRESS?
+HOST: David (IT)
+IMAGE: 2027-01-27_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Get the address, gateway and DNS in one view. Watch for anything starting with 169.254.
+
+Open PowerShell and run:
+Get-NetIPConfiguration
+
+Heads up: An address starting 169.254 means DHCP failed. Check the cable, Wi-Fi or DHCP server. Why it works: it shows the IP, gateway and DNS for every active adapter. Ticket closed. (Resolution: IP found.)
+#Networking #DHCP #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Get the address, gateway and DNS in one view. Watch for anything starting with 169.254.
+
+Open PowerShell and run:
+Get-NetIPConfiguration
+
+Heads up: An address starting 169.254 means DHCP failed. Check the cable, Wi-Fi or DHCP server. Why it works: it shows the IP, gateway and DNS for every active adapter. Ticket closed. (Resolution: IP found.)
+Save this for the next time you need it.
+#Networking #DHCP #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

@@ -1,0 +1,25 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-26 (Tuesday)
+POST TIME: 2:00 PM ET
+TITLE: WHERE DOES THE CONNECTION STOP?
+HOST: David (IT)
+IMAGE: 2027-01-26_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Trace the route. The hop where it stops tells you which side to blame.
+
+Open PowerShell and run:
+Test-NetConnection 8.8.8.8 -TraceRoute
+
+Heads up: A timeout partway doesn't always mean a problem. Look at where it truly ends. Why it works: it lists each hop between your PC and the target. Ticket closed. (Resolution: path traced.)
+#Networking #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Trace the route. The hop where it stops tells you which side to blame.
+
+Open PowerShell and run:
+Test-NetConnection 8.8.8.8 -TraceRoute
+
+Heads up: A timeout partway doesn't always mean a problem. Look at where it truly ends. Why it works: it lists each hop between your PC and the target. Ticket closed. (Resolution: path traced.)
+Save this for the next time you need it.
+#Networking #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

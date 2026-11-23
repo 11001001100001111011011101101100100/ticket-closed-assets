@@ -1,0 +1,31 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-11-28 (Saturday)
+POST TIME: 2:00 PM ET
+TITLE: APP FROZEN AND WON'T CLOSE?
+HOST: David (IT)
+IMAGE: 2026-11-28_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Look at what's frozen before you kill anything. Step one lists it. Step two closes it.
+
+Open PowerShell as Administrator and run:
+# Step 1: list the frozen ones
+Get-Process | Where-Object { -not $_.Responding }
+# Step 2: close them
+Get-Process | Where-Object { -not $_.Responding } | Stop-Process -Force
+
+Heads up: Unsaved work in those apps is gone. Check the list first. Why it works: Windows flags apps that stop answering, so you can target only those. Ticket closed. (Resolution: killed.)
+#TaskManager #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Look at what's frozen before you kill anything. Step one lists it. Step two closes it.
+
+Open PowerShell as Administrator and run:
+# Step 1: list the frozen ones
+Get-Process | Where-Object { -not $_.Responding }
+# Step 2: close them
+Get-Process | Where-Object { -not $_.Responding } | Stop-Process -Force
+
+Heads up: Unsaved work in those apps is gone. Check the list first. Why it works: Windows flags apps that stop answering, so you can target only those. Ticket closed. (Resolution: killed.)
+Save this for the next time you need it.
+#TaskManager #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

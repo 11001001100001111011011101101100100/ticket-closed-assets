@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-21 (Monday)
+POST TIME: 2:00 PM ET
+TITLE: LAPTOP BATTERY DIES IN AN HOUR?
+HOST: David (IT)
+IMAGE: 2026-12-21_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Don't guess. Generate the battery report and compare design capacity to full charge capacity.
+
+Open PowerShell as Administrator and run:
+powercfg /batteryreport /output "$env:USERPROFILE\battery.html"
+Start-Process "$env:USERPROFILE\battery.html"
+
+Heads up: Laptops only. A big gap between the two numbers means the battery is worn. Why it works: the report tracks health, cycles and recent usage. Ticket closed. (Resolution: battery diagnosed.)
+#Laptop #Battery #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Don't guess. Generate the battery report and compare design capacity to full charge capacity.
+
+Open PowerShell as Administrator and run:
+powercfg /batteryreport /output "$env:USERPROFILE\battery.html"
+Start-Process "$env:USERPROFILE\battery.html"
+
+Heads up: Laptops only. A big gap between the two numbers means the battery is worn. Why it works: the report tracks health, cycles and recent usage. Ticket closed. (Resolution: battery diagnosed.)
+Save this for the next time you need it.
+#Laptop #Battery #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-17 (Thursday)
+POST TIME: 2:00 PM ET
+TITLE: WHO IS SIGNED IN ON THAT PC?
+HOST: David (IT)
+IMAGE: 2026-12-17_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Before you restart it, check who's on it. A quick look at the sessions.
+
+Open Command Prompt as Administrator and run:
+# Who is signed in on PC01?
+quser /server:PC01
+# Shows user, session, state and idle time
+
+Heads up: PC01 is an example. A firewall may block remote queries. Why it works: restarting a PC someone is using is a good way to make a new ticket. Ticket closed. (Resolution: session found.)
+#RemoteSupport #Helpdesk #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Before you restart it, check who's on it. A quick look at the sessions.
+
+Open Command Prompt as Administrator and run:
+# Who is signed in on PC01?
+quser /server:PC01
+# Shows user, session, state and idle time
+
+Heads up: PC01 is an example. A firewall may block remote queries. Why it works: restarting a PC someone is using is a good way to make a new ticket. Ticket closed. (Resolution: session found.)
+Save this for the next time you need it.
+#RemoteSupport #Helpdesk #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

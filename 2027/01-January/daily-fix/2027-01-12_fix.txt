@@ -1,0 +1,25 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-12 (Tuesday)
+POST TIME: 2:00 PM ET
+TITLE: PATCH TUESDAY BROKE SOMETHING?
+HOST: David (IT)
+IMAGE: 2027-01-12_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Find the KB that landed before the problem started. If you must, remove that one update.
+
+Open Command Prompt as Administrator and run:
+wusa /uninstall /kb:1234567 /quiet /norestart
+
+Heads up: 1234567 is a placeholder. Check the KB number first. Removing a security update leaves the PC exposed. Why it works: wusa removes one installed update by its KB number. Ticket closed. (Resolution: update removed.)
+#PatchTuesday #Patching #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Find the KB that landed before the problem started. If you must, remove that one update.
+
+Open Command Prompt as Administrator and run:
+wusa /uninstall /kb:1234567 /quiet /norestart
+
+Heads up: 1234567 is a placeholder. Check the KB number first. Removing a security update leaves the PC exposed. Why it works: wusa removes one installed update by its KB number. Ticket closed. (Resolution: update removed.)
+Save this for the next time you need it.
+#PatchTuesday #Patching #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

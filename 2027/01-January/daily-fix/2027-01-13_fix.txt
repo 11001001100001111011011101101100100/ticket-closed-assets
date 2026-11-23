@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-13 (Wednesday)
+POST TIME: 2:00 PM ET
+TITLE: WHAT WENT WRONG IN THE LAST HOUR?
+HOST: David (IT)
+IMAGE: 2027-01-13_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Pull the last ten system errors from the past hour. That is usually where the story starts.
+
+Open PowerShell and run:
+$f = @{ LogName='System'; Level=2;
+       StartTime=(Get-Date).AddHours(-1) }
+Get-WinEvent -FilterHashtable $f -MaxEvents 10
+
+Heads up: No errors in the window? PowerShell says no events were found. That's good news. Why it works: Level 2 means Error, and the filter keeps only the last hour. Ticket closed. (Resolution: errors found.)
+#EventViewer #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Pull the last ten system errors from the past hour. That is usually where the story starts.
+
+Open PowerShell and run:
+$f = @{ LogName='System'; Level=2;
+       StartTime=(Get-Date).AddHours(-1) }
+Get-WinEvent -FilterHashtable $f -MaxEvents 10
+
+Heads up: No errors in the window? PowerShell says no events were found. That's good news. Why it works: Level 2 means Error, and the filter keeps only the last hour. Ticket closed. (Resolution: errors found.)
+Save this for the next time you need it.
+#EventViewer #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

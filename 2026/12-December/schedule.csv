@@ -1,0 +1,1098 @@
+﻿Date,Day,Time (ET),Slot,File,Raw URL (public),Facebook caption,Instagram caption,Facebook status,Instagram status,Notes
+2026-12-01,Tue,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-01,Tue,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-01_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-01_meme.jpg,"Always check the plug first. 🔌
+
+What's the weirdest cause of an outage you've seen? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife","Always check the plug first. 🔌
+
+What's the weirdest cause of an outage you've seen? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-01,Tue,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-01_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-01_fix.jpg,"Drop the dead mapping and map it again. Swap in your own drive letter and path.
+
+Open Command Prompt as Administrator and run:
+net use Z: /delete
+net use Z: \\fileserver\share /persistent:yes
+
+Heads up: Z: and \\fileserver\share are examples. Use your own. Why it works: a stale session to the server keeps the old mapping broken. Ticket closed. (Resolution: drive remapped.)
+#FileShare #Networking #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Drop the dead mapping and map it again. Swap in your own drive letter and path.
+
+Open Command Prompt as Administrator and run:
+net use Z: /delete
+net use Z: \\fileserver\share /persistent:yes
+
+Heads up: Z: and \\fileserver\share are examples. Use your own. Why it works: a stale session to the server keeps the old mapping broken. Ticket closed. (Resolution: drive remapped.)
+Save this for the next time you need it.
+#FileShare #Networking #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-01,Tue,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-01_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-01_reel.mp4,"Always check the plug first. 🔌
+
+What's the weirdest cause of an outage you've seen? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife","Always check the plug first. 🔌
+
+What's the weirdest cause of an outage you've seen? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife",Scheduled/posted (per David),Manual (per David),
+2026-12-02,Wed,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-02,Wed,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-02_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-02_meme.jpg,"We don't judge. We just notice. 👀
+
+How many icons are on your desktop right now? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk","We don't judge. We just notice. 👀
+
+How many icons are on your desktop right now? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-02,Wed,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-02_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-02_fix.jpg,"Your temp folder is a junk drawer. Empty it. Anything in use is skipped, so it's safe.
+
+Open PowerShell as Administrator and run:
+Remove-Item ""$env:TEMP\*"" -Recurse -Force -ErrorAction SilentlyContinue
+
+Heads up: Close your apps first so fewer files are locked. Why it works: apps leave temp files behind and rarely clean up. Ticket closed. (Resolution: temp cleared.)
+#DiskSpace #Cleanup #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Your temp folder is a junk drawer. Empty it. Anything in use is skipped, so it's safe.
+
+Open PowerShell as Administrator and run:
+Remove-Item ""$env:TEMP\*"" -Recurse -Force -ErrorAction SilentlyContinue
+
+Heads up: Close your apps first so fewer files are locked. Why it works: apps leave temp files behind and rarely clean up. Ticket closed. (Resolution: temp cleared.)
+Save this for the next time you need it.
+#DiskSpace #Cleanup #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-02,Wed,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-02_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-02_reel.mp4,"We don't judge. We just notice. 👀
+
+How many icons are on your desktop right now? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk","We don't judge. We just notice. 👀
+
+How many icons are on your desktop right now? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk",Scheduled/posted (per David),Manual (per David),
+2026-12-03,Thu,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-03,Thu,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-03_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-03_meme.jpg,"Pause before you click. 🎣
+
+Have you ever spotted a phishing email that almost fooled you? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife","Pause before you click. 🎣
+
+Have you ever spotted a phishing email that almost fooled you? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-03,Thu,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-03_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-03_fix.jpg,"Wrong time breaks sign-in and HTTPS. Check the offset, then force a sync.
+
+Open Command Prompt as Administrator and run:
+w32tm /query /status
+w32tm /resync
+
+Heads up: Domain PCs sync from the domain. A bad offset can mean a deeper problem. Why it works: Kerberos and certificates need clocks within minutes of each other. Ticket closed. (Resolution: clock synced.)
+#Kerberos #TimeSync #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Wrong time breaks sign-in and HTTPS. Check the offset, then force a sync.
+
+Open Command Prompt as Administrator and run:
+w32tm /query /status
+w32tm /resync
+
+Heads up: Domain PCs sync from the domain. A bad offset can mean a deeper problem. Why it works: Kerberos and certificates need clocks within minutes of each other. Ticket closed. (Resolution: clock synced.)
+Save this for the next time you need it.
+#Kerberos #TimeSync #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-03,Thu,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-03_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-03_reel.mp4,"Pause before you click. 🎣
+
+Have you ever spotted a phishing email that almost fooled you? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife","Pause before you click. 🎣
+
+Have you ever spotted a phishing email that almost fooled you? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife",Scheduled/posted (per David),Manual (per David),
+2026-12-04,Fri,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-04,Fri,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-04_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-04_meme.jpg,"There is no such thing as a quick question. ⏰
+
+What's your 4:58 PM ticket story? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife","There is no such thing as a quick question. ⏰
+
+What's your 4:58 PM ticket story? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-04,Fri,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-04_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-04_fix.jpg,"Run the online scan first. It checks the disk without taking the PC down.
+
+Open Command Prompt as Administrator and run:
+chkdsk C: /scan
+# Errors found? chkdsk C: /f (needs a reboot)
+
+Heads up: Back up first if the disk is making noises or SMART is failing. Why it works: most file system problems show up in a scan before they become a crash. Ticket closed. (Resolution: disk checked.)
+#Chkdsk #Storage #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Run the online scan first. It checks the disk without taking the PC down.
+
+Open Command Prompt as Administrator and run:
+chkdsk C: /scan
+# Errors found? chkdsk C: /f (needs a reboot)
+
+Heads up: Back up first if the disk is making noises or SMART is failing. Why it works: most file system problems show up in a scan before they become a crash. Ticket closed. (Resolution: disk checked.)
+Save this for the next time you need it.
+#Chkdsk #Storage #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-04,Fri,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-04_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-04_reel.mp4,"There is no such thing as a quick question. ⏰
+
+What's your 4:58 PM ticket story? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife","There is no such thing as a quick question. ⏰
+
+What's your 4:58 PM ticket story? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife",Scheduled/posted (per David),Manual (per David),
+2026-12-05,Sat,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-05,Sat,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-05_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-05_meme.jpg,"Never deploy on a Friday. 🙃
+
+What's your worst Friday afternoon IT moment? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife","Never deploy on a Friday. 🙃
+
+What's your worst Friday afternoon IT moment? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-05,Sat,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-05_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-05_fix.jpg,"Start Outlook without add-ins. Press Win+R and type one of these.
+
+Press Win+R and run:
+outlook.exe /safe
+# Still odd? Reset the navigation pane
+outlook.exe /resetnavpane
+
+Heads up: /resetnavpane resets your folder pane layout and favorites. Why it works: a bad add-in is a common reason Outlook hangs on startup. Ticket closed. (Resolution: safe mode.)
+#Outlook #Microsoft365 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Start Outlook without add-ins. Press Win+R and type one of these.
+
+Press Win+R and run:
+outlook.exe /safe
+# Still odd? Reset the navigation pane
+outlook.exe /resetnavpane
+
+Heads up: /resetnavpane resets your folder pane layout and favorites. Why it works: a bad add-in is a common reason Outlook hangs on startup. Ticket closed. (Resolution: safe mode.)
+Save this for the next time you need it.
+#Outlook #Microsoft365 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-05,Sat,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-05_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-05_reel.mp4,"Never deploy on a Friday. 🙃
+
+What's your worst Friday afternoon IT moment? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife","Never deploy on a Friday. 🙃
+
+What's your worst Friday afternoon IT moment? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife",Scheduled/posted (per David),Manual (per David),
+2026-12-06,Sun,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-06,Sun,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-06_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-06_meme.jpg,"Open Task Manager. Face the truth. 📊
+
+How much RAM is your browser using right now? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife","Open Task Manager. Face the truth. 📊
+
+How much RAM is your browser using right now? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-06,Sun,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-06_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-06_fix.jpg,"Search finds nothing? Restart the search service before you rebuild anything.
+
+Open PowerShell as Administrator and run:
+Restart-Service -Name WSearch
+Get-Service -Name WSearch
+
+Heads up: Still empty after that? Rebuild the index in Indexing Options. Why it works: the service can hang, and a restart is quicker than a rebuild. Ticket closed. (Resolution: reindexed.)
+#WindowsSearch #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Search finds nothing? Restart the search service before you rebuild anything.
+
+Open PowerShell as Administrator and run:
+Restart-Service -Name WSearch
+Get-Service -Name WSearch
+
+Heads up: Still empty after that? Rebuild the index in Indexing Options. Why it works: the service can hang, and a restart is quicker than a rebuild. Ticket closed. (Resolution: reindexed.)
+Save this for the next time you need it.
+#WindowsSearch #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-06,Sun,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-06_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-06_reel.mp4,"Open Task Manager. Face the truth. 📊
+
+How much RAM is your browser using right now? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife","Open Task Manager. Face the truth. 📊
+
+How much RAM is your browser using right now? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife",Scheduled/posted (per David),Manual (per David),
+2026-12-07,Mon,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-07,Mon,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-07_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-07_meme.jpg,"Known since forever. 🐛
+
+What's an IT ""known issue"" you've lived with forever? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk","Known since forever. 🐛
+
+What's an IT ""known issue"" you've lived with forever? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-07,Mon,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-07_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-07_fix.jpg,"Before you reinstall drivers, restart the audio service.
+
+Open PowerShell as Administrator and run:
+Restart-Service -Name Audiosrv -Force
+
+Heads up: Audio may cut out for a second while it restarts. Why it works: the audio service can stall after sleep, a dock change or an update. Ticket closed. (Resolution: sound back.)
+#Audio #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Before you reinstall drivers, restart the audio service.
+
+Open PowerShell as Administrator and run:
+Restart-Service -Name Audiosrv -Force
+
+Heads up: Audio may cut out for a second while it restarts. Why it works: the audio service can stall after sleep, a dock change or an update. Ticket closed. (Resolution: sound back.)
+Save this for the next time you need it.
+#Audio #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-07,Mon,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-07_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-07_reel.mp4,"Known since forever. 🐛
+
+What's an IT ""known issue"" you've lived with forever? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk","Known since forever. 🐛
+
+What's an IT ""known issue"" you've lived with forever? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk",Scheduled/posted (per David),Manual (per David),
+2026-12-08,Tue,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-08,Tue,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-08_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-08_meme.jpg,"The answer is always no. 🔒
+
+What's the funniest reason someone asked you for admin rights? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife","The answer is always no. 🔒
+
+What's the funniest reason someone asked you for admin rights? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-08,Tue,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-08_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-08_fix.jpg,"Force a refresh, then see which policies actually landed.
+
+Open Command Prompt as Administrator and run:
+gpupdate /force
+gpresult /r
+
+Heads up: Some settings only apply after a sign-out or a restart. Why it works: gpresult shows what applied and which policies were filtered out. Ticket closed. (Resolution: policy applied.)
+#GroupPolicy #ActiveDirectory #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Force a refresh, then see which policies actually landed.
+
+Open Command Prompt as Administrator and run:
+gpupdate /force
+gpresult /r
+
+Heads up: Some settings only apply after a sign-out or a restart. Why it works: gpresult shows what applied and which policies were filtered out. Ticket closed. (Resolution: policy applied.)
+Save this for the next time you need it.
+#GroupPolicy #ActiveDirectory #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-08,Tue,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-08_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-08_reel.mp4,"The answer is always no. 🔒
+
+What's the funniest reason someone asked you for admin rights? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife","The answer is always no. 🔒
+
+What's the funniest reason someone asked you for admin rights? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife",Scheduled/posted (per David),Manual (per David),
+2026-12-09,Wed,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-09,Wed,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-09_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-09_meme.jpg,"Read the docs. Please. 📄
+
+Do you write documentation nobody reads? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife","Read the docs. Please. 📄
+
+Do you write documentation nobody reads? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-09,Wed,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-09_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-09_fix.jpg,"Update the definitions, run a quick scan, then list anything it found.
+
+Open PowerShell as Administrator and run:
+Update-MpSignature
+Start-MpScan -ScanType QuickScan
+Get-MpThreat
+
+Heads up: Another antivirus in charge? Defender may be in passive mode. Why it works: fresh definitions matter more than the scan itself. Ticket closed. (Resolution: scanned.)
+#Defender #Security #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Update the definitions, run a quick scan, then list anything it found.
+
+Open PowerShell as Administrator and run:
+Update-MpSignature
+Start-MpScan -ScanType QuickScan
+Get-MpThreat
+
+Heads up: Another antivirus in charge? Defender may be in passive mode. Why it works: fresh definitions matter more than the scan itself. Ticket closed. (Resolution: scanned.)
+Save this for the next time you need it.
+#Defender #Security #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-09,Wed,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-09_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-09_reel.mp4,"Read the docs. Please. 📄
+
+Do you write documentation nobody reads? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife","Read the docs. Please. 📄
+
+Do you write documentation nobody reads? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife",Scheduled/posted (per David),Manual (per David),
+2026-12-10,Thu,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-10,Thu,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-10_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-10_meme.jpg,"Sounds fancier in the report. 😎
+
+What's the simplest fix you've ever dressed up as a pro move? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife","Sounds fancier in the report. 😎
+
+What's the simplest fix you've ever dressed up as a pro move? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-10,Thu,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-10_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-10_fix.jpg,"No flipping the laptop over. Ask Windows for the serial number, make and model.
+
+Open PowerShell as Administrator and run:
+Get-CimInstance Win32_BIOS | Select-Object SerialNumber
+Get-CimInstance Win32_ComputerSystem |
+  Select-Object Manufacturer, Model
+
+Heads up: Some custom builds return a blank or placeholder serial. Why it works: the BIOS stores it, so Windows can read it without a screwdriver. Ticket closed. (Resolution: serial found.)
+#AssetManagement #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","No flipping the laptop over. Ask Windows for the serial number, make and model.
+
+Open PowerShell as Administrator and run:
+Get-CimInstance Win32_BIOS | Select-Object SerialNumber
+Get-CimInstance Win32_ComputerSystem |
+  Select-Object Manufacturer, Model
+
+Heads up: Some custom builds return a blank or placeholder serial. Why it works: the BIOS stores it, so Windows can read it without a screwdriver. Ticket closed. (Resolution: serial found.)
+Save this for the next time you need it.
+#AssetManagement #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-10,Thu,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-10_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-10_reel.mp4,"Sounds fancier in the report. 😎
+
+What's the simplest fix you've ever dressed up as a pro move? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife","Sounds fancier in the report. 😎
+
+What's the simplest fix you've ever dressed up as a pro move? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife",Scheduled/posted (per David),Manual (per David),
+2026-12-11,Fri,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-11,Fri,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-11_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-11_meme.jpg,"The logs never lie. 📜
+
+What's the most-denied thing you've found in the logs? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife","The logs never lie. 📜
+
+What's the most-denied thing you've found in the logs? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-11,Fri,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-11_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-11_fix.jpg,"Find the ten biggest files under Users before you delete anything.
+
+Open PowerShell as Administrator and run:
+Get-ChildItem C:\Users -Recurse -File -ErrorAction SilentlyContinue |
+  Sort-Object Length -Descending |
+  Select-Object -First 10 FullName, Length
+
+Heads up: Slow on big drives. Don't delete anything you haven't checked. Why it works: Length is in bytes, sorted largest first. Ticket closed. (Resolution: space reclaimed.)
+#DiskSpace #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Find the ten biggest files under Users before you delete anything.
+
+Open PowerShell as Administrator and run:
+Get-ChildItem C:\Users -Recurse -File -ErrorAction SilentlyContinue |
+  Sort-Object Length -Descending |
+  Select-Object -First 10 FullName, Length
+
+Heads up: Slow on big drives. Don't delete anything you haven't checked. Why it works: Length is in bytes, sorted largest first. Ticket closed. (Resolution: space reclaimed.)
+Save this for the next time you need it.
+#DiskSpace #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-11,Fri,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-11_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-11_reel.mp4,"The logs never lie. 📜
+
+What's the most-denied thing you've found in the logs? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife","The logs never lie. 📜
+
+What's the most-denied thing you've found in the logs? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife",Scheduled/posted (per David),Manual (per David),
+2026-12-12,Sat,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-12,Sat,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-12_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-12_meme.jpg,"First in, first out. Mostly. 📥
+
+How long is your ticket queue today? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk","First in, first out. Mostly. 📥
+
+How long is your ticket queue today? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-12,Sat,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-12_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-12_fix.jpg,"When nothing else works, reset the Winsock catalog and the IP stack, then reboot.
+
+Open Command Prompt as Administrator and run:
+netsh winsock reset
+netsh int ip reset
+
+Heads up: Custom network settings, including static IPs, may be reset. Note them first. Why it works: VPN clients and security tools can corrupt the network stack. Ticket closed. (Resolution: stack reset.)
+#Winsock #Networking #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","When nothing else works, reset the Winsock catalog and the IP stack, then reboot.
+
+Open Command Prompt as Administrator and run:
+netsh winsock reset
+netsh int ip reset
+
+Heads up: Custom network settings, including static IPs, may be reset. Note them first. Why it works: VPN clients and security tools can corrupt the network stack. Ticket closed. (Resolution: stack reset.)
+Save this for the next time you need it.
+#Winsock #Networking #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-12,Sat,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-12_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-12_reel.mp4,"First in, first out. Mostly. 📥
+
+How long is your ticket queue today? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk","First in, first out. Mostly. 📥
+
+How long is your ticket queue today? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk",Scheduled/posted (per David),Manual (per David),
+2026-12-13,Sun,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-13,Sun,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-13_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-13_meme.jpg,"Don't breathe on it. 🖥️
+
+What's the oldest thing still running in your office? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife","Don't breathe on it. 🖥️
+
+What's the oldest thing still running in your office? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-13,Sun,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-13_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-13_fix.jpg,"Find the process that owns the port before you start killing things.
+
+Open PowerShell as Administrator and run:
+$conn = Get-NetTCPConnection -LocalPort 8080 -State Listen
+Get-Process -Id $conn.OwningProcess
+
+Heads up: 8080 is an example. Use your port. Don't kill system processes. Why it works: the connection shows which process ID is listening. Ticket closed. (Resolution: port freed.)
+#Networking #DevOps #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Find the process that owns the port before you start killing things.
+
+Open PowerShell as Administrator and run:
+$conn = Get-NetTCPConnection -LocalPort 8080 -State Listen
+Get-Process -Id $conn.OwningProcess
+
+Heads up: 8080 is an example. Use your port. Don't kill system processes. Why it works: the connection shows which process ID is listening. Ticket closed. (Resolution: port freed.)
+Save this for the next time you need it.
+#Networking #DevOps #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-13,Sun,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-13_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-13_reel.mp4,"Don't breathe on it. 🖥️
+
+What's the oldest thing still running in your office? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife","Don't breathe on it. 🖥️
+
+What's the oldest thing still running in your office? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife",Scheduled/posted (per David),Manual (per David),
+2026-12-14,Mon,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-14,Mon,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-14_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-14_meme.jpg,"Check the power button. Always. 🔘
+
+What's your best ""it wasn't plugged in"" story? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife","Check the power button. Always. 🔘
+
+What's your best ""it wasn't plugged in"" story? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-14,Mon,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-14_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-14_fix.jpg,"Find the key before the prompt becomes a crisis. Check the protectors and the status.
+
+Open Command Prompt as Administrator and run:
+manage-bde -protectors -get C:
+manage-bde -status C:
+
+Heads up: The output shows a recovery password. Treat it like a password. Never post it. Why it works: the key is usually also stored in AD or your account. Ticket closed. (Resolution: key located.)
+#BitLocker #Security #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Find the key before the prompt becomes a crisis. Check the protectors and the status.
+
+Open Command Prompt as Administrator and run:
+manage-bde -protectors -get C:
+manage-bde -status C:
+
+Heads up: The output shows a recovery password. Treat it like a password. Never post it. Why it works: the key is usually also stored in AD or your account. Ticket closed. (Resolution: key located.)
+Save this for the next time you need it.
+#BitLocker #Security #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-14,Mon,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-14_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-14_reel.mp4,"Check the power button. Always. 🔘
+
+What's your best ""it wasn't plugged in"" story? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife","Check the power button. Always. 🔘
+
+What's your best ""it wasn't plugged in"" story? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife",Scheduled/posted (per David),Manual (per David),
+2026-12-15,Tue,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-15,Tue,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-15_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-15_meme.jpg,"Details, please! 🙏
+
+What's the most useless ticket description you've ever seen? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife","Details, please! 🙏
+
+What's the most useless ticket description you've ever seen? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-15,Tue,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-15_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-15_fix.jpg,"Find who is locked, then unlock them. Check why before it happens again.
+
+Open PowerShell as Administrator and run:
+Search-ADAccount -LockedOut | Select-Object Name, SamAccountName
+Unlock-ADAccount -Identity jsmith
+
+Heads up: jsmith is an example. Old saved passwords on phones are a top cause. Why it works: a stale saved password somewhere keeps retrying and re-locks the account. Ticket closed. (Resolution: unlocked.)
+#ActiveDirectory #Helpdesk #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Find who is locked, then unlock them. Check why before it happens again.
+
+Open PowerShell as Administrator and run:
+Search-ADAccount -LockedOut | Select-Object Name, SamAccountName
+Unlock-ADAccount -Identity jsmith
+
+Heads up: jsmith is an example. Old saved passwords on phones are a top cause. Why it works: a stale saved password somewhere keeps retrying and re-locks the account. Ticket closed. (Resolution: unlocked.)
+Save this for the next time you need it.
+#ActiveDirectory #Helpdesk #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-15,Tue,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-15_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-15_reel.mp4,"Details, please! 🙏
+
+What's the most useless ticket description you've ever seen? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife","Details, please! 🙏
+
+What's the most useless ticket description you've ever seen? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife",Scheduled/posted (per David),Manual (per David),
+2026-12-16,Wed,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-16,Wed,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-16_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-16_meme.jpg,"Elementary, my dear Watson. 🔍
+
+What's your favorite error message of all time? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife","Elementary, my dear Watson. 🔍
+
+What's your favorite error message of all time? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-16,Wed,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-16_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-16_fix.jpg,"""The trust relationship failed."" Test the secure channel first. Repair it if it's broken.
+
+Open PowerShell as Administrator and run:
+Test-ComputerSecureChannel -Verbose
+Test-ComputerSecureChannel -Repair -Credential (Get-Credential)
+
+Heads up: Needs a network path to a domain controller and rights to reset the account. Why it works: the PC's password with the domain drifted, and this resets it. Ticket closed. (Resolution: trust restored.)
+#ActiveDirectory #Domain #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","""The trust relationship failed."" Test the secure channel first. Repair it if it's broken.
+
+Open PowerShell as Administrator and run:
+Test-ComputerSecureChannel -Verbose
+Test-ComputerSecureChannel -Repair -Credential (Get-Credential)
+
+Heads up: Needs a network path to a domain controller and rights to reset the account. Why it works: the PC's password with the domain drifted, and this resets it. Ticket closed. (Resolution: trust restored.)
+Save this for the next time you need it.
+#ActiveDirectory #Domain #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-16,Wed,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-16_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-16_reel.mp4,"Elementary, my dear Watson. 🔍
+
+What's your favorite error message of all time? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife","Elementary, my dear Watson. 🔍
+
+What's your favorite error message of all time? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife",Scheduled/posted (per David),Manual (per David),
+2026-12-17,Thu,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-17,Thu,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-17_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-17_meme.jpg,"Time is relative during updates. ⏳
+
+What's the longest update you've ever waited through? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk","Time is relative during updates. ⏳
+
+What's the longest update you've ever waited through? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-17,Thu,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-17_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-17_fix.jpg,"Before you restart it, check who's on it. A quick look at the sessions.
+
+Open Command Prompt as Administrator and run:
+# Who is signed in on PC01?
+quser /server:PC01
+# Shows user, session, state and idle time
+
+Heads up: PC01 is an example. A firewall may block remote queries. Why it works: restarting a PC someone is using is a good way to make a new ticket. Ticket closed. (Resolution: session found.)
+#RemoteSupport #Helpdesk #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Before you restart it, check who's on it. A quick look at the sessions.
+
+Open Command Prompt as Administrator and run:
+# Who is signed in on PC01?
+quser /server:PC01
+# Shows user, session, state and idle time
+
+Heads up: PC01 is an example. A firewall may block remote queries. Why it works: restarting a PC someone is using is a good way to make a new ticket. Ticket closed. (Resolution: session found.)
+Save this for the next time you need it.
+#RemoteSupport #Helpdesk #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-17,Thu,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-17_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-17_reel.mp4,"Time is relative during updates. ⏳
+
+What's the longest update you've ever waited through? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk","Time is relative during updates. ⏳
+
+What's the longest update you've ever waited through? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk",Scheduled/posted (per David),Manual (per David),
+2026-12-18,Fri,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-18,Fri,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-18_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-18_meme.jpg,"Please use folders. We beg. 📁
+
+Where do you actually save your files? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife","Please use folders. We beg. 📁
+
+Where do you actually save your files? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-18,Fri,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-18_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-18_fix.jpg,"Give people a five-minute warning and a message. Changed your mind? Abort it.
+
+Open Command Prompt as Administrator and run:
+shutdown /r /t 300 /m \\PC01 /c ""IT restart in 5 minutes. Save your work.""
+# Changed your mind?
+shutdown /a /m \\PC01
+
+Heads up: PC01 is an example. 300 is seconds. Why it works: the timer gives users a warning, and /a cancels it. Ticket closed. (Resolution: restart announced.)
+#RemoteSupport #SysAdmin #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Give people a five-minute warning and a message. Changed your mind? Abort it.
+
+Open Command Prompt as Administrator and run:
+shutdown /r /t 300 /m \\PC01 /c ""IT restart in 5 minutes. Save your work.""
+# Changed your mind?
+shutdown /a /m \\PC01
+
+Heads up: PC01 is an example. 300 is seconds. Why it works: the timer gives users a warning, and /a cancels it. Ticket closed. (Resolution: restart announced.)
+Save this for the next time you need it.
+#RemoteSupport #SysAdmin #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-18,Fri,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-18_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-18_reel.mp4,"Please use folders. We beg. 📁
+
+Where do you actually save your files? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife","Please use folders. We beg. 📁
+
+Where do you actually save your files? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife",Scheduled/posted (per David),Manual (per David),
+2026-12-19,Sat,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-19,Sat,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-19_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-19_meme.jpg,"Test your backups today. 💾
+
+When did you last test your backups? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife","Test your backups today. 💾
+
+When did you last test your backups? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-19,Sat,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-19_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-19_fix.jpg,"List the adapters, then restart the one that's misbehaving. Quicker than a full reboot.
+
+Open PowerShell as Administrator and run:
+Get-NetAdapter
+Restart-NetAdapter -Name ""Wi-Fi""
+
+Heads up: Drops that connection briefly. Don't do it over a remote session on that adapter. Why it works: it resets the driver and link without a reboot. Ticket closed. (Resolution: adapter restarted.)
+#Networking #WiFi #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","List the adapters, then restart the one that's misbehaving. Quicker than a full reboot.
+
+Open PowerShell as Administrator and run:
+Get-NetAdapter
+Restart-NetAdapter -Name ""Wi-Fi""
+
+Heads up: Drops that connection briefly. Don't do it over a remote session on that adapter. Why it works: it resets the driver and link without a reboot. Ticket closed. (Resolution: adapter restarted.)
+Save this for the next time you need it.
+#Networking #WiFi #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-19,Sat,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-19_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-19_reel.mp4,"Test your backups today. 💾
+
+When did you last test your backups? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife","Test your backups today. 💾
+
+When did you last test your backups? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife",Scheduled/posted (per David),Manual (per David),
+2026-12-20,Sun,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-20,Sun,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-20_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-20_meme.jpg,"Every holiday gathering, same question. 💻
+
+What's the first thing a relative asked you to fix? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife","Every holiday gathering, same question. 💻
+
+What's the first thing a relative asked you to fix? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife",To schedule,To schedule,
+2026-12-20,Sun,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-20_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-20_fix.jpg,"Event 41 means it restarted without a clean shutdown. Look at the last five.
+
+Open PowerShell as Administrator and run:
+Get-WinEvent -FilterHashtable @{ LogName = 'System'; Id = 41 } |
+  Select-Object -First 5 TimeCreated, Id
+
+Heads up: No results means no unexpected restarts were logged. Why it works: Kernel-Power 41 is Windows noting the last shutdown was not clean. Ticket closed. (Resolution: crash explained.)
+#EventViewer #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Event 41 means it restarted without a clean shutdown. Look at the last five.
+
+Open PowerShell as Administrator and run:
+Get-WinEvent -FilterHashtable @{ LogName = 'System'; Id = 41 } |
+  Select-Object -First 5 TimeCreated, Id
+
+Heads up: No results means no unexpected restarts were logged. Why it works: Kernel-Power 41 is Windows noting the last shutdown was not clean. Ticket closed. (Resolution: crash explained.)
+Save this for the next time you need it.
+#EventViewer #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-20,Sun,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-20_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-20_reel.mp4,"Every holiday gathering, same question. 💻
+
+What's the first thing a relative asked you to fix? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife","Every holiday gathering, same question. 💻
+
+What's the first thing a relative asked you to fix? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife",To schedule (Business Suite),"To post (Windsor create_video_post, immediate)",
+2026-12-21,Mon,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-21,Mon,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-21_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-21_meme.jpg,"Freeze week, as told by the ticket queue. 🧊
+
+How many changes have you seen squeezed in right before a freeze? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife","Freeze week, as told by the ticket queue. 🧊
+
+How many changes have you seen squeezed in right before a freeze? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife",To schedule,To schedule,
+2026-12-21,Mon,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-21_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-21_fix.jpg,"Don't guess. Generate the battery report and compare design capacity to full charge capacity.
+
+Open PowerShell as Administrator and run:
+powercfg /batteryreport /output ""$env:USERPROFILE\battery.html""
+Start-Process ""$env:USERPROFILE\battery.html""
+
+Heads up: Laptops only. A big gap between the two numbers means the battery is worn. Why it works: the report tracks health, cycles and recent usage. Ticket closed. (Resolution: battery diagnosed.)
+#Laptop #Battery #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Don't guess. Generate the battery report and compare design capacity to full charge capacity.
+
+Open PowerShell as Administrator and run:
+powercfg /batteryreport /output ""$env:USERPROFILE\battery.html""
+Start-Process ""$env:USERPROFILE\battery.html""
+
+Heads up: Laptops only. A big gap between the two numbers means the battery is worn. Why it works: the report tracks health, cycles and recent usage. Ticket closed. (Resolution: battery diagnosed.)
+Save this for the next time you need it.
+#Laptop #Battery #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",Scheduled/posted (per David),Scheduled/posted (per David),
+2026-12-21,Mon,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-21_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-21_reel.mp4,"Freeze week, as told by the ticket queue. 🧊
+
+How many changes have you seen squeezed in right before a freeze? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife","Freeze week, as told by the ticket queue. 🧊
+
+How many changes have you seen squeezed in right before a freeze? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife",To schedule (Business Suite),"To post (Windsor create_video_post, immediate)",
+2026-12-22,Tue,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-22,Tue,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-22_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-22_meme.jpg,"Inbox zero is a myth. 📬
+
+What's the biggest unread count you've ever seen? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife","Inbox zero is a myth. 📬
+
+What's the biggest unread count you've ever seen? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife",To schedule,To schedule,
+2026-12-22,Tue,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-22_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-22_fix.jpg,"Slow PC? Rank the processes by how much processor time they've used. The top one is usually the answer.
+
+Open PowerShell and run:
+Get-Process | Sort-Object CPU -Descending |
+  Select-Object -First 10 Name, Id, CPU
+
+Heads up: CPU here is total seconds used, not live percent. Run it twice and compare. Why it works: long-running heavy processes float to the top of the list. Ticket closed. (Resolution: culprit found.)
+#Performance #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Slow PC? Rank the processes by how much processor time they've used. The top one is usually the answer.
+
+Open PowerShell and run:
+Get-Process | Sort-Object CPU -Descending |
+  Select-Object -First 10 Name, Id, CPU
+
+Heads up: CPU here is total seconds used, not live percent. Run it twice and compare. Why it works: long-running heavy processes float to the top of the list. Ticket closed. (Resolution: culprit found.)
+Save this for the next time you need it.
+#Performance #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",To schedule,To schedule,
+2026-12-22,Tue,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-22_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-22_reel.mp4,"Inbox zero is a myth. 📬
+
+What's the biggest unread count you've ever seen? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife","Inbox zero is a myth. 📬
+
+What's the biggest unread count you've ever seen? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife",To schedule (Business Suite),"To post (Windsor create_video_post, immediate)",
+2026-12-23,Wed,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-23,Wed,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-23_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-23_meme.jpg,"Version control, office edition. 📄
+
+What's the worst file name you've ever found? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife","Version control, office edition. 📄
+
+What's the worst file name you've ever found? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife",To schedule,To schedule,
+2026-12-23,Wed,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-23_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-23_fix.jpg,"Before you blame the hardware, check what's actually holding the memory.
+
+Open PowerShell and run:
+Get-Process | Sort-Object WorkingSet64 -Descending |
+  Select-Object -First 10 Name,
+  @{n='MB'; e={[int]($_.WorkingSet64/1MB)}}
+
+Heads up: Browsers split into many processes. Add up the rows with the same name. Why it works: working set is the memory a process holds right now, shown here in MB. Ticket closed. (Resolution: RAM hog found.)
+#Performance #Memory #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Before you blame the hardware, check what's actually holding the memory.
+
+Open PowerShell and run:
+Get-Process | Sort-Object WorkingSet64 -Descending |
+  Select-Object -First 10 Name,
+  @{n='MB'; e={[int]($_.WorkingSet64/1MB)}}
+
+Heads up: Browsers split into many processes. Add up the rows with the same name. Why it works: working set is the memory a process holds right now, shown here in MB. Ticket closed. (Resolution: RAM hog found.)
+Save this for the next time you need it.
+#Performance #Memory #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",To schedule,To schedule,
+2026-12-23,Wed,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-23_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-23_reel.mp4,"Version control, office edition. 📄
+
+What's the worst file name you've ever found? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife","Version control, office edition. 📄
+
+What's the worst file name you've ever found? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife",To schedule (Business Suite),"To post (Windsor create_video_post, immediate)",
+2026-12-24,Thu,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-24,Thu,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-24_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-24_meme.jpg,"On call doesn't take holidays. 🎄
+
+What's your worst holiday on-call story? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk","On call doesn't take holidays. 🎄
+
+What's your worst holiday on-call story? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk",To schedule,To schedule,
+2026-12-24,Thu,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-24_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-24_fix.jpg,"Everything that launches at sign-in slows you down. List it, then switch off what you don't need.
+
+Open PowerShell and run:
+Get-CimInstance Win32_StartupCommand |
+  Select-Object Name, Command, Location
+
+Heads up: This only lists them. Turn items off in Task Manager under Startup apps. Why it works: every item here starts at sign-in and competes for resources. Ticket closed. (Resolution: startup trimmed.)
+#Startup #Performance #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Everything that launches at sign-in slows you down. List it, then switch off what you don't need.
+
+Open PowerShell and run:
+Get-CimInstance Win32_StartupCommand |
+  Select-Object Name, Command, Location
+
+Heads up: This only lists them. Turn items off in Task Manager under Startup apps. Why it works: every item here starts at sign-in and competes for resources. Ticket closed. (Resolution: startup trimmed.)
+Save this for the next time you need it.
+#Startup #Performance #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",To schedule,To schedule,
+2026-12-24,Thu,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-24_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-24_reel.mp4,"On call doesn't take holidays. 🎄
+
+What's your worst holiday on-call story? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk","On call doesn't take holidays. 🎄
+
+What's your worst holiday on-call story? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk",To schedule (Business Suite),"To post (Windsor create_video_post, immediate)",
+2026-12-25,Fri,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-25,Fri,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-25_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-25_meme.jpg,"Merry Christmas from the help desk. 🎁
+
+Did anyone hand you a tech problem today? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife","Merry Christmas from the help desk. 🎁
+
+Did anyone hand you a tech problem today? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife",To schedule,To schedule,
+2026-12-25,Fri,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-25_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-25_fix.jpg,"Merry Christmas. If this PC has joined the network before, Windows still has the key. List it, then show it.
+
+Open Command Prompt as Administrator and run:
+netsh wlan show profiles
+netsh wlan show profile name=""HomeWiFi"" key=clear
+
+Heads up: HomeWiFi is an example. The password shows in plain text. Use it on your own PC only. Why it works: Windows saves the key for every network the PC has joined. Ticket closed. (Resolution: password found.)
+#WiFi #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Merry Christmas. If this PC has joined the network before, Windows still has the key. List it, then show it.
+
+Open Command Prompt as Administrator and run:
+netsh wlan show profiles
+netsh wlan show profile name=""HomeWiFi"" key=clear
+
+Heads up: HomeWiFi is an example. The password shows in plain text. Use it on your own PC only. Why it works: Windows saves the key for every network the PC has joined. Ticket closed. (Resolution: password found.)
+Save this for the next time you need it.
+#WiFi #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",To schedule,To schedule,
+2026-12-25,Fri,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-25_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-25_reel.mp4,"Merry Christmas from the help desk. 🎁
+
+Did anyone hand you a tech problem today? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife","Merry Christmas from the help desk. 🎁
+
+Did anyone hand you a tech problem today? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife",To schedule (Business Suite),"To post (Windsor create_video_post, immediate)",
+2026-12-26,Sat,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-26,Sat,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-26_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-26_meme.jpg,"Back to work, back to resets. 🔑
+
+How many password resets did your first day back bring? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife","Back to work, back to resets. 🔑
+
+How many password resets did your first day back bring? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife",To schedule,To schedule,
+2026-12-26,Sat,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-26_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-26_fix.jpg,"Don't guess the version. Ask Windows for the edition, version and build number in one go.
+
+Open PowerShell and run:
+Get-ComputerInfo |
+  Select-Object WindowsProductName, WindowsVersion, OsBuildNumber
+
+Heads up: Get-ComputerInfo can take ten seconds the first time you run it. Why it works: the build number is what update and support pages ask for. Ticket closed. (Resolution: version known.)
+#Windows11 #Inventory #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Don't guess the version. Ask Windows for the edition, version and build number in one go.
+
+Open PowerShell and run:
+Get-ComputerInfo |
+  Select-Object WindowsProductName, WindowsVersion, OsBuildNumber
+
+Heads up: Get-ComputerInfo can take ten seconds the first time you run it. Why it works: the build number is what update and support pages ask for. Ticket closed. (Resolution: version known.)
+Save this for the next time you need it.
+#Windows11 #Inventory #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",To schedule,To schedule,
+2026-12-26,Sat,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-26_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-26_reel.mp4,"Back to work, back to resets. 🔑
+
+How many password resets did your first day back bring? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife","Back to work, back to resets. 🔑
+
+How many password resets did your first day back bring? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife",To schedule (Business Suite),"To post (Windsor create_video_post, immediate)",
+2026-12-27,Sun,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-27,Sun,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-27_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-27_meme.jpg,"Closing the lid is not a shutdown. 💤
+
+How long has your PC gone without a real restart? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife","Closing the lid is not a shutdown. 💤
+
+How long has your PC gone without a real restart? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife",To schedule,To schedule,
+2026-12-27,Sun,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-27_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-27_fix.jpg,"Find out what is keeping it awake, and what woke it last.
+
+Open Command Prompt as Administrator and run:
+powercfg /requests
+powercfg /lastwake
+
+Heads up: Empty lists mean nothing is blocking sleep right now. Why it works: it names the app, driver or device holding Windows awake. Ticket closed. (Resolution: sleep restored.)
+#Power #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Find out what is keeping it awake, and what woke it last.
+
+Open Command Prompt as Administrator and run:
+powercfg /requests
+powercfg /lastwake
+
+Heads up: Empty lists mean nothing is blocking sleep right now. Why it works: it names the app, driver or device holding Windows awake. Ticket closed. (Resolution: sleep restored.)
+Save this for the next time you need it.
+#Power #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",To schedule,To schedule,
+2026-12-27,Sun,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-27_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-27_reel.mp4,"Closing the lid is not a shutdown. 💤
+
+How long has your PC gone without a real restart? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife","Closing the lid is not a shutdown. 💤
+
+How long has your PC gone without a real restart? 👇 Follow for daily IT memes!
+
+#HelpDesk #ITHumor #TechSupport #SysAdmin #ITLife",To schedule (Business Suite),"To post (Windsor create_video_post, immediate)",
+2026-12-28,Mon,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-28,Mon,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-28_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-28_meme.jpg,"Permissions are working as designed. 🔒
+
+What's the funniest access request you've gotten? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife","Permissions are working as designed. 🔒
+
+What's the funniest access request you've gotten? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife",To schedule,To schedule,
+2026-12-28,Mon,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-28_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-28_fix.jpg,"Skip the settings maze. One command reports the activation status and expiry.
+
+Open Command Prompt and run:
+cscript //nologo %windir%\system32\slmgr.vbs /xpr
+
+Heads up: Volume-licensed PCs may show an expiry date. That is normal for KMS. Why it works: slmgr reads the license state straight from Windows. Ticket closed. (Resolution: activation checked.)
+#Licensing #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Skip the settings maze. One command reports the activation status and expiry.
+
+Open Command Prompt and run:
+cscript //nologo %windir%\system32\slmgr.vbs /xpr
+
+Heads up: Volume-licensed PCs may show an expiry date. That is normal for KMS. Why it works: slmgr reads the license state straight from Windows. Ticket closed. (Resolution: activation checked.)
+Save this for the next time you need it.
+#Licensing #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",To schedule,To schedule,
+2026-12-28,Mon,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-28_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-28_reel.mp4,"Permissions are working as designed. 🔒
+
+What's the funniest access request you've gotten? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife","Permissions are working as designed. 🔒
+
+What's the funniest access request you've gotten? 👇 Follow for daily IT memes!
+
+#ITSupport #WindowsAdmin #TechHumor #HelpDesk #ITLife",To schedule (Business Suite),"To post (Windsor create_video_post, immediate)",
+2026-12-29,Tue,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-29,Tue,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-29_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-29_meme.jpg,"It's never just the internet. 🐌
+
+What was really eating your bandwidth last time? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk","It's never just the internet. 🐌
+
+What was really eating your bandwidth last time? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk",To schedule,To schedule,
+2026-12-29,Tue,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-29_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-29_fix.jpg,"Don't trust the green icon. Check the service, real-time protection and when the definitions last updated.
+
+Open PowerShell as Administrator and run:
+Get-MpComputerStatus |
+  Select-Object AMServiceEnabled, RealTimeProtectionEnabled,
+  AntivirusSignatureLastUpdated
+
+Heads up: Another antivirus can put Defender in passive mode. Check which one is in charge. Why it works: it reports the real state, not what the tray icon shows. Ticket closed. (Resolution: Defender checked.)
+#Defender #Security #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Don't trust the green icon. Check the service, real-time protection and when the definitions last updated.
+
+Open PowerShell as Administrator and run:
+Get-MpComputerStatus |
+  Select-Object AMServiceEnabled, RealTimeProtectionEnabled,
+  AntivirusSignatureLastUpdated
+
+Heads up: Another antivirus can put Defender in passive mode. Check which one is in charge. Why it works: it reports the real state, not what the tray icon shows. Ticket closed. (Resolution: Defender checked.)
+Save this for the next time you need it.
+#Defender #Security #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",To schedule,To schedule,
+2026-12-29,Tue,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-29_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-29_reel.mp4,"It's never just the internet. 🐌
+
+What was really eating your bandwidth last time? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk","It's never just the internet. 🐌
+
+What was really eating your bandwidth last time? 👇 Follow for daily IT memes!
+
+#ITLife #SysAdminLife #TechMemes #ITSupport #HelpDesk",To schedule (Business Suite),"To post (Windsor create_video_post, immediate)",
+2026-12-30,Wed,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-30,Wed,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-30_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-30_meme.jpg,"Documentation: a year in review. 📝
+
+Where does your team really keep its procedures? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife","Documentation: a year in review. 📝
+
+Where does your team really keep its procedures? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife",To schedule,To schedule,
+2026-12-30,Wed,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-30_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-30_fix.jpg,"Year-end audit. List the ten most recent updates and when each one landed.
+
+Open PowerShell and run:
+Get-HotFix | Sort-Object InstalledOn -Descending |
+  Select-Object -First 10 HotFixID, InstalledOn
+
+Heads up: Not every update type shows up here. Check Update history for the full list. Why it works: it reads the installed update log, newest first. Ticket closed. (Resolution: patches listed.)
+#Patching #Audit #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Year-end audit. List the ten most recent updates and when each one landed.
+
+Open PowerShell and run:
+Get-HotFix | Sort-Object InstalledOn -Descending |
+  Select-Object -First 10 HotFixID, InstalledOn
+
+Heads up: Not every update type shows up here. Check Update history for the full list. Why it works: it reads the installed update log, newest first. Ticket closed. (Resolution: patches listed.)
+Save this for the next time you need it.
+#Patching #Audit #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",To schedule,To schedule,
+2026-12-30,Wed,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-30_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-30_reel.mp4,"Documentation: a year in review. 📝
+
+Where does your team really keep its procedures? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife","Documentation: a year in review. 📝
+
+Where does your team really keep its procedures? 👇 Follow for daily IT memes!
+
+#ITSupport #HelpDesk #SysAdminLife #TechHumor #ITLife",To schedule (Business Suite),"To post (Windsor create_video_post, immediate)",
+2026-12-31,Thu,6:00 AM,Daily News,(made that morning),,,,To make and post that morning,To make and post that morning,Built from the day's real IT news
+2026-12-31,Thu,12:00 PM,Photo meme,2026/12-December/daily-meme/2026-12-31_meme.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-meme/2026-12-31_meme.jpg,"Happy New Year from the queue. 🎆
+
+How many tickets are you taking into the new year? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife","Happy New Year from the queue. 🎆
+
+How many tickets are you taking into the new year? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife",To schedule,To schedule,
+2026-12-31,Thu,2:00 PM,Fix of the Day,2026/12-December/daily-fix/2026-12-31_fix.jpg,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-fix/2026-12-31_fix.jpg,"Before the year ends, check whether Windows is waiting for a restart.
+
+Open PowerShell as Administrator and run:
+$k = ""HKLM:\SOFTWARE\Microsoft\Windows""
+Test-Path ""$k\CurrentVersion\WindowsUpdate\Auto Update\RebootRequired""
+Test-Path ""$k\CurrentVersion\Component Based Servicing\RebootPending""
+
+Heads up: True means a restart is pending. False doesn't rule out every case. Why it works: Windows sets these keys when an install needs a reboot to finish. Ticket closed. (Resolution: reboot checked.)
+#Patching #NewYear #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed","Before the year ends, check whether Windows is waiting for a restart.
+
+Open PowerShell as Administrator and run:
+$k = ""HKLM:\SOFTWARE\Microsoft\Windows""
+Test-Path ""$k\CurrentVersion\WindowsUpdate\Auto Update\RebootRequired""
+Test-Path ""$k\CurrentVersion\Component Based Servicing\RebootPending""
+
+Heads up: True means a restart is pending. False doesn't rule out every case. Why it works: Windows sets these keys when an install needs a reboot to finish. Ticket closed. (Resolution: reboot checked.)
+Save this for the next time you need it.
+#Patching #NewYear #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed",To schedule,To schedule,
+2026-12-31,Thu,8:00 PM,Reel,2026/12-December/daily-reel/2026-12-31_reel.mp4,https://raw.githubusercontent.com/11001001100001111011011101101100100/ticket-closed-assets/main/2026/12-December/daily-reel/2026-12-31_reel.mp4,"Happy New Year from the queue. 🎆
+
+How many tickets are you taking into the new year? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife","Happy New Year from the queue. 🎆
+
+How many tickets are you taking into the new year? 👇 Follow for daily IT memes!
+
+#ITSupport #TechSupport #TicketLife #TechHumor #SysAdminLife",To schedule (Business Suite),"To post (Windsor create_video_post, immediate)",

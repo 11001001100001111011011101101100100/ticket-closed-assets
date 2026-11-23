@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-25 (Friday)
+POST TIME: 2:00 PM ET
+TITLE: FORGOT THE WI-FI PASSWORD?
+HOST: David (IT)
+IMAGE: 2026-12-25_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Merry Christmas. If this PC has joined the network before, Windows still has the key. List it, then show it.
+
+Open Command Prompt as Administrator and run:
+netsh wlan show profiles
+netsh wlan show profile name="HomeWiFi" key=clear
+
+Heads up: HomeWiFi is an example. The password shows in plain text. Use it on your own PC only. Why it works: Windows saves the key for every network the PC has joined. Ticket closed. (Resolution: password found.)
+#WiFi #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Merry Christmas. If this PC has joined the network before, Windows still has the key. List it, then show it.
+
+Open Command Prompt as Administrator and run:
+netsh wlan show profiles
+netsh wlan show profile name="HomeWiFi" key=clear
+
+Heads up: HomeWiFi is an example. The password shows in plain text. Use it on your own PC only. Why it works: Windows saves the key for every network the PC has joined. Ticket closed. (Resolution: password found.)
+Save this for the next time you need it.
+#WiFi #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

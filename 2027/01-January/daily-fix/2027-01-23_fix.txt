@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-23 (Saturday)
+POST TIME: 2:00 PM ET
+TITLE: IS THE DRIVE HEALTHY?
+HOST: David (IT)
+IMAGE: 2027-01-23_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Ask Windows what it thinks of the drive. Health and operational status for each disk.
+
+Open PowerShell as Administrator and run:
+Get-PhysicalDisk |
+  Select-Object FriendlyName, MediaType, HealthStatus, OperationalStatus
+
+Heads up: Healthy here doesn't promise the drive is fine. Keep backups. Why it works: Windows tracks drive health through the storage stack. Ticket closed. (Resolution: disk healthy.)
+#Storage #Hardware #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Ask Windows what it thinks of the drive. Health and operational status for each disk.
+
+Open PowerShell as Administrator and run:
+Get-PhysicalDisk |
+  Select-Object FriendlyName, MediaType, HealthStatus, OperationalStatus
+
+Heads up: Healthy here doesn't promise the drive is fine. Keep backups. Why it works: Windows tracks drive health through the storage stack. Ticket closed. (Resolution: disk healthy.)
+Save this for the next time you need it.
+#Storage #Hardware #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

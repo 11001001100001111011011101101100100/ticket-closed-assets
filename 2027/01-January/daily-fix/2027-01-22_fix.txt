@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-22 (Friday)
+POST TIME: 2:00 PM ET
+TITLE: UPDATE APPS FROM THE COMMAND LINE?
+HOST: David (IT)
+IMAGE: 2027-01-22_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+See what's out of date first. If the list looks right, update everything.
+
+Open PowerShell and run:
+winget upgrade
+# List looks right? Update all
+winget upgrade --all
+
+Heads up: Review the list first. Some apps close or restart during updates. Why it works: winget checks each installed app against its source. Ticket closed. (Resolution: apps updated.)
+#Winget #Patching #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+See what's out of date first. If the list looks right, update everything.
+
+Open PowerShell and run:
+winget upgrade
+# List looks right? Update all
+winget upgrade --all
+
+Heads up: Review the list first. Some apps close or restart during updates. Why it works: winget checks each installed app against its source. Ticket closed. (Resolution: apps updated.)
+Save this for the next time you need it.
+#Winget #Patching #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

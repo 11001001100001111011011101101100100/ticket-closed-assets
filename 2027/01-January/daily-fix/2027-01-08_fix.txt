@@ -1,0 +1,31 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-08 (Friday)
+POST TIME: 2:00 PM ET
+TITLE: SLOW OR BLOCKED? CHECK THE PROXY.
+HOST: David (IT)
+IMAGE: 2027-01-08_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+A forgotten proxy setting can break browsing and updates. Check both places.
+
+Open PowerShell and run:
+netsh winhttp show proxy
+$p = "HKCU:\Software\Microsoft\Windows\CurrentVersion"
+Get-ItemProperty "$p\Internet Settings" |
+  Select-Object ProxyEnable, ProxyServer
+
+Heads up: ProxyEnable 1 means the user proxy is on. A work PC may need one on purpose. Why it works: WinHTTP and the user settings use different proxy values. Ticket closed. (Resolution: proxy found.)
+#Networking #Proxy #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+A forgotten proxy setting can break browsing and updates. Check both places.
+
+Open PowerShell and run:
+netsh winhttp show proxy
+$p = "HKCU:\Software\Microsoft\Windows\CurrentVersion"
+Get-ItemProperty "$p\Internet Settings" |
+  Select-Object ProxyEnable, ProxyServer
+
+Heads up: ProxyEnable 1 means the user proxy is on. A work PC may need one on purpose. Why it works: WinHTTP and the user settings use different proxy values. Ticket closed. (Resolution: proxy found.)
+Save this for the next time you need it.
+#Networking #Proxy #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

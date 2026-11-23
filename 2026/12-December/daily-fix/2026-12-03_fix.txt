@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-03 (Thursday)
+POST TIME: 2:00 PM ET
+TITLE: LOGIN OR CERTIFICATE ERRORS? CHECK THE CLOCK.
+HOST: David (IT)
+IMAGE: 2026-12-03_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Wrong time breaks sign-in and HTTPS. Check the offset, then force a sync.
+
+Open Command Prompt as Administrator and run:
+w32tm /query /status
+w32tm /resync
+
+Heads up: Domain PCs sync from the domain. A bad offset can mean a deeper problem. Why it works: Kerberos and certificates need clocks within minutes of each other. Ticket closed. (Resolution: clock synced.)
+#Kerberos #TimeSync #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Wrong time breaks sign-in and HTTPS. Check the offset, then force a sync.
+
+Open Command Prompt as Administrator and run:
+w32tm /query /status
+w32tm /resync
+
+Heads up: Domain PCs sync from the domain. A bad offset can mean a deeper problem. Why it works: Kerberos and certificates need clocks within minutes of each other. Ticket closed. (Resolution: clock synced.)
+Save this for the next time you need it.
+#Kerberos #TimeSync #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

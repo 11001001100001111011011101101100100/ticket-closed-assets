@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-14 (Monday)
+POST TIME: 2:00 PM ET
+TITLE: BITLOCKER ASKING FOR A RECOVERY KEY?
+HOST: David (IT)
+IMAGE: 2026-12-14_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Find the key before the prompt becomes a crisis. Check the protectors and the status.
+
+Open Command Prompt as Administrator and run:
+manage-bde -protectors -get C:
+manage-bde -status C:
+
+Heads up: The output shows a recovery password. Treat it like a password. Never post it. Why it works: the key is usually also stored in AD or your account. Ticket closed. (Resolution: key located.)
+#BitLocker #Security #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Find the key before the prompt becomes a crisis. Check the protectors and the status.
+
+Open Command Prompt as Administrator and run:
+manage-bde -protectors -get C:
+manage-bde -status C:
+
+Heads up: The output shows a recovery password. Treat it like a password. Never post it. Why it works: the key is usually also stored in AD or your account. Ticket closed. (Resolution: key located.)
+Save this for the next time you need it.
+#BitLocker #Security #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

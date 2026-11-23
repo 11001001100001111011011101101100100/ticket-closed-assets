@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-11-23 (Monday)
+POST TIME: 2:00 PM ET
+TITLE: ABOUT TO CHANGE SOMETHING RISKY?
+HOST: David (IT)
+IMAGE: 2026-11-23_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Before you touch the registry, drivers or updates, make a restore point. It takes ten seconds and saves the weekend.
+
+Open PowerShell as Administrator and run:
+Checkpoint-Computer -Description "Before the fix" `
+  -RestorePointType MODIFY_SETTINGS
+
+Heads up: Windows allows one restore point per 24 hours by default. Why it works: you get a clean way back if the fix makes things worse. Ticket closed. (Resolution: restore point.)
+#Backup #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Before you touch the registry, drivers or updates, make a restore point. It takes ten seconds and saves the weekend.
+
+Open PowerShell as Administrator and run:
+Checkpoint-Computer -Description "Before the fix" `
+  -RestorePointType MODIFY_SETTINGS
+
+Heads up: Windows allows one restore point per 24 hours by default. Why it works: you get a clean way back if the fix makes things worse. Ticket closed. (Resolution: restore point.)
+Save this for the next time you need it.
+#Backup #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

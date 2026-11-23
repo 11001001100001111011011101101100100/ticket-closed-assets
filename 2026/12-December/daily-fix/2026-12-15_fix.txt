@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-15 (Tuesday)
+POST TIME: 2:00 PM ET
+TITLE: USER LOCKED OUT AGAIN?
+HOST: David (IT)
+IMAGE: 2026-12-15_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Find who is locked, then unlock them. Check why before it happens again.
+
+Open PowerShell as Administrator and run:
+Search-ADAccount -LockedOut | Select-Object Name, SamAccountName
+Unlock-ADAccount -Identity jsmith
+
+Heads up: jsmith is an example. Old saved passwords on phones are a top cause. Why it works: a stale saved password somewhere keeps retrying and re-locks the account. Ticket closed. (Resolution: unlocked.)
+#ActiveDirectory #Helpdesk #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Find who is locked, then unlock them. Check why before it happens again.
+
+Open PowerShell as Administrator and run:
+Search-ADAccount -LockedOut | Select-Object Name, SamAccountName
+Unlock-ADAccount -Identity jsmith
+
+Heads up: jsmith is an example. Old saved passwords on phones are a top cause. Why it works: a stale saved password somewhere keeps retrying and re-locks the account. Ticket closed. (Resolution: unlocked.)
+Save this for the next time you need it.
+#ActiveDirectory #Helpdesk #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-29 (Friday)
+POST TIME: 2:00 PM ET
+TITLE: NEED THE PC'S BASICS FAST?
+HOST: David (IT)
+IMAGE: 2027-01-29_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+OS, version, boot time and memory in one command, filtered so you don't scroll.
+
+Open Command Prompt and run:
+systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
+  /C:"System Boot Time" /C:"Total Physical Memory"
+
+Heads up: systeminfo takes a few seconds to run. Output follows your system language. Why it works: findstr keeps just the lines you asked for. Ticket closed. (Resolution: specs listed.)
+#Inventory #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+OS, version, boot time and memory in one command, filtered so you don't scroll.
+
+Open Command Prompt and run:
+systeminfo | findstr /B /C:"OS Name" /C:"OS Version"
+  /C:"System Boot Time" /C:"Total Physical Memory"
+
+Heads up: systeminfo takes a few seconds to run. Output follows your system language. Why it works: findstr keeps just the lines you asked for. Ticket closed. (Resolution: specs listed.)
+Save this for the next time you need it.
+#Inventory #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

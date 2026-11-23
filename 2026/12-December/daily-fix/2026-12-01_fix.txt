@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-01 (Tuesday)
+POST TIME: 2:00 PM ET
+TITLE: MAPPED DRIVE SHOWS A RED X?
+HOST: David (IT)
+IMAGE: 2026-12-01_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Drop the dead mapping and map it again. Swap in your own drive letter and path.
+
+Open Command Prompt as Administrator and run:
+net use Z: /delete
+net use Z: \\fileserver\share /persistent:yes
+
+Heads up: Z: and \\fileserver\share are examples. Use your own. Why it works: a stale session to the server keeps the old mapping broken. Ticket closed. (Resolution: drive remapped.)
+#FileShare #Networking #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Drop the dead mapping and map it again. Swap in your own drive letter and path.
+
+Open Command Prompt as Administrator and run:
+net use Z: /delete
+net use Z: \\fileserver\share /persistent:yes
+
+Heads up: Z: and \\fileserver\share are examples. Use your own. Why it works: a stale session to the server keeps the old mapping broken. Ticket closed. (Resolution: drive remapped.)
+Save this for the next time you need it.
+#FileShare #Networking #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

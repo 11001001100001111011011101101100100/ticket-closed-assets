@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-20 (Sunday)
+POST TIME: 2:00 PM ET
+TITLE: PC REBOOTED ON ITS OWN?
+HOST: David (IT)
+IMAGE: 2026-12-20_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Event 41 means it restarted without a clean shutdown. Look at the last five.
+
+Open PowerShell as Administrator and run:
+Get-WinEvent -FilterHashtable @{ LogName = 'System'; Id = 41 } |
+  Select-Object -First 5 TimeCreated, Id
+
+Heads up: No results means no unexpected restarts were logged. Why it works: Kernel-Power 41 is Windows noting the last shutdown was not clean. Ticket closed. (Resolution: crash explained.)
+#EventViewer #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Event 41 means it restarted without a clean shutdown. Look at the last five.
+
+Open PowerShell as Administrator and run:
+Get-WinEvent -FilterHashtable @{ LogName = 'System'; Id = 41 } |
+  Select-Object -First 5 TimeCreated, Id
+
+Heads up: No results means no unexpected restarts were logged. Why it works: Kernel-Power 41 is Windows noting the last shutdown was not clean. Ticket closed. (Resolution: crash explained.)
+Save this for the next time you need it.
+#EventViewer #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

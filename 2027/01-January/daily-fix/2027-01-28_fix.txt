@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-28 (Thursday)
+POST TIME: 2:00 PM ET
+TITLE: WALKING AWAY? LOCK THE PC.
+HOST: David (IT)
+IMAGE: 2027-01-28_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Happy Data Privacy Day. Locking takes a second and keeps your session yours.
+
+Open Command Prompt and run:
+rundll32.exe user32.dll,LockWorkStation
+# Or press Win + L
+
+Heads up: Win + L is faster. Use the command in a script or shortcut. Why it works: an unlocked PC is open to anyone who walks past. Ticket closed. (Resolution: PC locked.)
+#DataPrivacyDay #Security #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Happy Data Privacy Day. Locking takes a second and keeps your session yours.
+
+Open Command Prompt and run:
+rundll32.exe user32.dll,LockWorkStation
+# Or press Win + L
+
+Heads up: Win + L is faster. Use the command in a script or shortcut. Why it works: an unlocked PC is open to anyone who walks past. Ticket closed. (Resolution: PC locked.)
+Save this for the next time you need it.
+#DataPrivacyDay #Security #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

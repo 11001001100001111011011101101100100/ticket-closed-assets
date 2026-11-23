@@ -1,0 +1,25 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-05 (Tuesday)
+POST TIME: 2:00 PM ET
+TITLE: WHICH PRINTERS DOES THIS PC SEE?
+HOST: David (IT)
+IMAGE: 2027-01-05_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Wrong printer, ghost printer, three of the same printer? List what's actually installed.
+
+Open PowerShell and run:
+Get-Printer | Select-Object Name, DriverName, PortName
+
+Heads up: To remove one, use Remove-Printer with the exact name. Check the list first. Why it works: you see the driver and port behind each printer. Ticket closed. (Resolution: printers listed.)
+#Printers #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Wrong printer, ghost printer, three of the same printer? List what's actually installed.
+
+Open PowerShell and run:
+Get-Printer | Select-Object Name, DriverName, PortName
+
+Heads up: To remove one, use Remove-Printer with the exact name. Check the list first. Why it works: you see the driver and port behind each printer. Ticket closed. (Resolution: printers listed.)
+Save this for the next time you need it.
+#Printers #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-24 (Sunday)
+POST TIME: 2:00 PM ET
+TITLE: LAPTOP SLOW ON POWER SAVER?
+HOST: David (IT)
+IMAGE: 2027-01-24_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+List the power plans, then switch to Balanced.
+
+Open Command Prompt and run:
+powercfg /list
+powercfg /setactive SCHEME_BALANCED
+
+Heads up: SCHEME_BALANCED is the built-in Balanced plan. Check the list first. Why it works: the power plan caps how hard the CPU is allowed to work. Ticket closed. (Resolution: plan set.)
+#Power #Performance #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+List the power plans, then switch to Balanced.
+
+Open Command Prompt and run:
+powercfg /list
+powercfg /setactive SCHEME_BALANCED
+
+Heads up: SCHEME_BALANCED is the built-in Balanced plan. Check the list first. Why it works: the power plan caps how hard the CPU is allowed to work. Ticket closed. (Resolution: plan set.)
+Save this for the next time you need it.
+#Power #Performance #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

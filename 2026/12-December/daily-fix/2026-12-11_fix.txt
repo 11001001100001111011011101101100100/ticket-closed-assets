@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-11 (Friday)
+POST TIME: 2:00 PM ET
+TITLE: WHAT IS EATING THE DISK?
+HOST: David (IT)
+IMAGE: 2026-12-11_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Find the ten biggest files under Users before you delete anything.
+
+Open PowerShell as Administrator and run:
+Get-ChildItem C:\Users -Recurse -File -ErrorAction SilentlyContinue |
+  Sort-Object Length -Descending |
+  Select-Object -First 10 FullName, Length
+
+Heads up: Slow on big drives. Don't delete anything you haven't checked. Why it works: Length is in bytes, sorted largest first. Ticket closed. (Resolution: space reclaimed.)
+#DiskSpace #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Find the ten biggest files under Users before you delete anything.
+
+Open PowerShell as Administrator and run:
+Get-ChildItem C:\Users -Recurse -File -ErrorAction SilentlyContinue |
+  Sort-Object Length -Descending |
+  Select-Object -First 10 FullName, Length
+
+Heads up: Slow on big drives. Don't delete anything you haven't checked. Why it works: Length is in bytes, sorted largest first. Ticket closed. (Resolution: space reclaimed.)
+Save this for the next time you need it.
+#DiskSpace #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-11-26 (Thursday)
+POST TIME: 2:00 PM ET
+TITLE: IS IT DNS OR IS IT THE NETWORK?
+HOST: David (IT)
+IMAGE: 2026-11-26_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Two commands tell you which one. Name lookup first, then a connection test. It's DNS more often than anyone admits.
+
+Open PowerShell as Administrator and run:
+Resolve-DnsName microsoft.com
+Test-NetConnection microsoft.com -Port 443
+
+Heads up: Lookup fails? DNS. Lookup works but the test fails? Check the network or firewall. Why it works: the first command tests names, the second tests the path. Ticket closed. (Resolution: it was DNS.)
+#DNS #Networking #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Two commands tell you which one. Name lookup first, then a connection test. It's DNS more often than anyone admits.
+
+Open PowerShell as Administrator and run:
+Resolve-DnsName microsoft.com
+Test-NetConnection microsoft.com -Port 443
+
+Heads up: Lookup fails? DNS. Lookup works but the test fails? Check the network or firewall. Why it works: the first command tests names, the second tests the path. Ticket closed. (Resolution: it was DNS.)
+Save this for the next time you need it.
+#DNS #Networking #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

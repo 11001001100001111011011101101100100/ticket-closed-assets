@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-10 (Thursday)
+POST TIME: 2:00 PM ET
+TITLE: SUPPORT WANTS THE SERIAL NUMBER?
+HOST: David (IT)
+IMAGE: 2026-12-10_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+No flipping the laptop over. Ask Windows for the serial number, make and model.
+
+Open PowerShell as Administrator and run:
+Get-CimInstance Win32_BIOS | Select-Object SerialNumber
+Get-CimInstance Win32_ComputerSystem |
+  Select-Object Manufacturer, Model
+
+Heads up: Some custom builds return a blank or placeholder serial. Why it works: the BIOS stores it, so Windows can read it without a screwdriver. Ticket closed. (Resolution: serial found.)
+#AssetManagement #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+No flipping the laptop over. Ask Windows for the serial number, make and model.
+
+Open PowerShell as Administrator and run:
+Get-CimInstance Win32_BIOS | Select-Object SerialNumber
+Get-CimInstance Win32_ComputerSystem |
+  Select-Object Manufacturer, Model
+
+Heads up: Some custom builds return a blank or placeholder serial. Why it works: the BIOS stores it, so Windows can read it without a screwdriver. Ticket closed. (Resolution: serial found.)
+Save this for the next time you need it.
+#AssetManagement #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

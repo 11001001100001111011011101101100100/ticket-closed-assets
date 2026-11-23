@@ -1,0 +1,25 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-06 (Wednesday)
+POST TIME: 2:00 PM ET
+TITLE: DOWNLOAD LOOK SUSPICIOUS?
+HOST: David (IT)
+IMAGE: 2027-01-06_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Compare the file's hash with the one the publisher lists. If they differ, don't run it.
+
+Open PowerShell and run:
+Get-FileHash .\setup.exe -Algorithm SHA256
+
+Heads up: setup.exe is an example. Only trust a hash from the publisher's own site. Why it works: any change to the file changes the hash completely. Ticket closed. (Resolution: hash verified.)
+#Security #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Compare the file's hash with the one the publisher lists. If they differ, don't run it.
+
+Open PowerShell and run:
+Get-FileHash .\setup.exe -Algorithm SHA256
+
+Heads up: setup.exe is an example. Only trust a hash from the publisher's own site. Why it works: any change to the file changes the hash completely. Ticket closed. (Resolution: hash verified.)
+Save this for the next time you need it.
+#Security #PowerShell #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

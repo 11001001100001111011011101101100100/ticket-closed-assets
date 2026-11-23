@@ -1,0 +1,31 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-11-30 (Monday)
+POST TIME: 2:00 PM ET
+TITLE: WINDOWS UPDATE STUCK OR FAILING?
+HOST: David (IT)
+IMAGE: 2026-11-30_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Update stuck at the same percent? Stop the update services, rename the download cache, start them again.
+
+Open PowerShell as Administrator and run:
+Stop-Service -Name wuauserv, bits -Force
+Rename-Item "$env:SystemRoot\SoftwareDistribution" `
+  -NewName SoftwareDistribution.old
+Start-Service -Name wuauserv, bits
+
+Heads up: Update history resets. Delete the .old folder later once updates work. Why it works: a corrupt download cache blocks every retry. Windows rebuilds a fresh one. Ticket closed. (Resolution: update unstuck.)
+#WindowsUpdate #Patching #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Update stuck at the same percent? Stop the update services, rename the download cache, start them again.
+
+Open PowerShell as Administrator and run:
+Stop-Service -Name wuauserv, bits -Force
+Rename-Item "$env:SystemRoot\SoftwareDistribution" `
+  -NewName SoftwareDistribution.old
+Start-Service -Name wuauserv, bits
+
+Heads up: Update history resets. Delete the .old folder later once updates work. Why it works: a corrupt download cache blocks every retry. Windows rebuilds a fresh one. Ticket closed. (Resolution: update unstuck.)
+Save this for the next time you need it.
+#WindowsUpdate #Patching #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

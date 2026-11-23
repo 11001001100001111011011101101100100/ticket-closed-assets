@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-13 (Sunday)
+POST TIME: 2:00 PM ET
+TITLE: PORT ALREADY IN USE?
+HOST: David (IT)
+IMAGE: 2026-12-13_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Find the process that owns the port before you start killing things.
+
+Open PowerShell as Administrator and run:
+$conn = Get-NetTCPConnection -LocalPort 8080 -State Listen
+Get-Process -Id $conn.OwningProcess
+
+Heads up: 8080 is an example. Use your port. Don't kill system processes. Why it works: the connection shows which process ID is listening. Ticket closed. (Resolution: port freed.)
+#Networking #DevOps #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Find the process that owns the port before you start killing things.
+
+Open PowerShell as Administrator and run:
+$conn = Get-NetTCPConnection -LocalPort 8080 -State Listen
+Get-Process -Id $conn.OwningProcess
+
+Heads up: 8080 is an example. Use your port. Don't kill system processes. Why it works: the connection shows which process ID is listening. Ticket closed. (Resolution: port freed.)
+Save this for the next time you need it.
+#Networking #DevOps #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

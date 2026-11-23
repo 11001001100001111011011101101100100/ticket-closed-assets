@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-09 (Wednesday)
+POST TIME: 2:00 PM ET
+TITLE: WANT A QUICK DEFENDER SCAN?
+HOST: David (IT)
+IMAGE: 2026-12-09_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Update the definitions, run a quick scan, then list anything it found.
+
+Open PowerShell as Administrator and run:
+Update-MpSignature
+Start-MpScan -ScanType QuickScan
+Get-MpThreat
+
+Heads up: Another antivirus in charge? Defender may be in passive mode. Why it works: fresh definitions matter more than the scan itself. Ticket closed. (Resolution: scanned.)
+#Defender #Security #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Update the definitions, run a quick scan, then list anything it found.
+
+Open PowerShell as Administrator and run:
+Update-MpSignature
+Start-MpScan -ScanType QuickScan
+Get-MpThreat
+
+Heads up: Another antivirus in charge? Defender may be in passive mode. Why it works: fresh definitions matter more than the scan itself. Ticket closed. (Resolution: scanned.)
+Save this for the next time you need it.
+#Defender #Security #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

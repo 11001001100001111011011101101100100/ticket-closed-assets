@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-09 (Saturday)
+POST TIME: 2:00 PM ET
+TITLE: PC SHOWS THE WRONG TIME ZONE?
+HOST: David (IT)
+IMAGE: 2027-01-09_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Calendar invites off by an hour? Check the time zone, then set the right one.
+
+Open PowerShell as Administrator and run:
+Get-TimeZone
+Set-TimeZone -Id "Eastern Standard Time"
+
+Heads up: Eastern is an example. See every ID with Get-TimeZone -ListAvailable. Why it works: meetings, logs and Kerberos all depend on the right zone. Ticket closed. (Resolution: zone fixed.)
+#TimeSync #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Calendar invites off by an hour? Check the time zone, then set the right one.
+
+Open PowerShell as Administrator and run:
+Get-TimeZone
+Set-TimeZone -Id "Eastern Standard Time"
+
+Heads up: Eastern is an example. See every ID with Get-TimeZone -ListAvailable. Why it works: meetings, logs and Kerberos all depend on the right zone. Ticket closed. (Resolution: zone fixed.)
+Save this for the next time you need it.
+#TimeSync #Windows11 #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

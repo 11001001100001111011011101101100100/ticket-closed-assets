@@ -1,0 +1,25 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-16 (Saturday)
+POST TIME: 2:00 PM ET
+TITLE: ACCESS DENIED? CHECK YOUR GROUPS.
+HOST: David (IT)
+IMAGE: 2027-01-16_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Before you ask for access, see which groups your account is actually in.
+
+Open Command Prompt and run:
+whoami /groups
+
+Heads up: New group memberships only show after you sign out and back in. Why it works: access is decided by the groups in your sign-in token. Ticket closed. (Resolution: groups checked.)
+#Access #ActiveDirectory #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Before you ask for access, see which groups your account is actually in.
+
+Open Command Prompt and run:
+whoami /groups
+
+Heads up: New group memberships only show after you sign out and back in. Why it works: access is decided by the groups in your sign-in token. Ticket closed. (Resolution: groups checked.)
+Save this for the next time you need it.
+#Access #ActiveDirectory #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

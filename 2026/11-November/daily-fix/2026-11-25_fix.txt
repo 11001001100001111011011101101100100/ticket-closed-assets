@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-11-25 (Wednesday)
+POST TIME: 2:00 PM ET
+TITLE: WI-FI CONNECTED BUT NO INTERNET?
+HOST: David (IT)
+IMAGE: 2026-11-25_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Connected, no internet? Release the old address, ask for a new one, and flush the DNS cache.
+
+Open Command Prompt as Administrator and run:
+ipconfig /release
+ipconfig /renew
+ipconfig /flushdns
+
+Heads up: This drops the connection for a few seconds. Don't run it over a remote session. Why it works: a stale address or cache is a common cause of no internet. Ticket closed. (Resolution: new IP.)
+#WiFi #Networking #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Connected, no internet? Release the old address, ask for a new one, and flush the DNS cache.
+
+Open Command Prompt as Administrator and run:
+ipconfig /release
+ipconfig /renew
+ipconfig /flushdns
+
+Heads up: This drops the connection for a few seconds. Don't run it over a remote session. Why it works: a stale address or cache is a common cause of no internet. Ticket closed. (Resolution: new IP.)
+Save this for the next time you need it.
+#WiFi #Networking #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

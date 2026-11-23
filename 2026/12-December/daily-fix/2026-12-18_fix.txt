@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-18 (Friday)
+POST TIME: 2:00 PM ET
+TITLE: NEED TO RESTART A REMOTE PC POLITELY?
+HOST: David (IT)
+IMAGE: 2026-12-18_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Give people a five-minute warning and a message. Changed your mind? Abort it.
+
+Open Command Prompt as Administrator and run:
+shutdown /r /t 300 /m \\PC01 /c "IT restart in 5 minutes. Save your work."
+# Changed your mind?
+shutdown /a /m \\PC01
+
+Heads up: PC01 is an example. 300 is seconds. Why it works: the timer gives users a warning, and /a cancels it. Ticket closed. (Resolution: restart announced.)
+#RemoteSupport #SysAdmin #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Give people a five-minute warning and a message. Changed your mind? Abort it.
+
+Open Command Prompt as Administrator and run:
+shutdown /r /t 300 /m \\PC01 /c "IT restart in 5 minutes. Save your work."
+# Changed your mind?
+shutdown /a /m \\PC01
+
+Heads up: PC01 is an example. 300 is seconds. Why it works: the timer gives users a warning, and /a cancels it. Ticket closed. (Resolution: restart announced.)
+Save this for the next time you need it.
+#RemoteSupport #SysAdmin #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

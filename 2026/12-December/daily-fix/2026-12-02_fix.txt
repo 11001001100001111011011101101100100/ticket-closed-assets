@@ -1,0 +1,25 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-02 (Wednesday)
+POST TIME: 2:00 PM ET
+TITLE: PC SLOW AND DISK ALMOST FULL?
+HOST: David (IT)
+IMAGE: 2026-12-02_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Your temp folder is a junk drawer. Empty it. Anything in use is skipped, so it's safe.
+
+Open PowerShell as Administrator and run:
+Remove-Item "$env:TEMP\*" -Recurse -Force -ErrorAction SilentlyContinue
+
+Heads up: Close your apps first so fewer files are locked. Why it works: apps leave temp files behind and rarely clean up. Ticket closed. (Resolution: temp cleared.)
+#DiskSpace #Cleanup #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Your temp folder is a junk drawer. Empty it. Anything in use is skipped, so it's safe.
+
+Open PowerShell as Administrator and run:
+Remove-Item "$env:TEMP\*" -Recurse -Force -ErrorAction SilentlyContinue
+
+Heads up: Close your apps first so fewer files are locked. Why it works: apps leave temp files behind and rarely clean up. Ticket closed. (Resolution: temp cleared.)
+Save this for the next time you need it.
+#DiskSpace #Cleanup #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

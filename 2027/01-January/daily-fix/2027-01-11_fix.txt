@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-11 (Monday)
+POST TIME: 2:00 PM ET
+TITLE: A SERVICE DIDN'T START?
+HOST: David (IT)
+IMAGE: 2027-01-11_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+List the services set to Automatic that aren't running. Not every one is a problem, but this is the shortlist.
+
+Open PowerShell and run:
+Get-Service |
+  Where-Object { $_.StartType -eq 'Automatic' -and $_.Status -ne 'Running' } |
+  Select-Object Name, Status
+
+Heads up: Some automatic services stop on purpose after finishing their job. Why it works: it filters to services that should be running and aren't. Ticket closed. (Resolution: services found.)
+#Services #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+List the services set to Automatic that aren't running. Not every one is a problem, but this is the shortlist.
+
+Open PowerShell and run:
+Get-Service |
+  Where-Object { $_.StartType -eq 'Automatic' -and $_.Status -ne 'Running' } |
+  Select-Object Name, Status
+
+Heads up: Some automatic services stop on purpose after finishing their job. Why it works: it filters to services that should be running and aren't. Ticket closed. (Resolution: services found.)
+Save this for the next time you need it.
+#Services #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

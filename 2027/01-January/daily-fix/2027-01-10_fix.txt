@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-10 (Sunday)
+POST TIME: 2:00 PM ET
+TITLE: CAN'T SEE FILE EXTENSIONS?
+HOST: David (IT)
+IMAGE: 2027-01-10_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Show the extensions. invoice.pdf.exe looks very different when you can read the .exe.
+
+Open PowerShell and run:
+$p = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
+Set-ItemProperty -Path $p -Name HideFileExt -Value 0
+Stop-Process -Name explorer -Force
+
+Heads up: Explorer restarts and open folder windows close. Save your work first. Why it works: Windows hides known extensions by default, and attackers count on it. Ticket closed. (Resolution: extensions visible.)
+#Security #Phishing #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Show the extensions. invoice.pdf.exe looks very different when you can read the .exe.
+
+Open PowerShell and run:
+$p = "HKCU:\Software\Microsoft\Windows\CurrentVersion\Explorer\Advanced"
+Set-ItemProperty -Path $p -Name HideFileExt -Value 0
+Stop-Process -Name explorer -Force
+
+Heads up: Explorer restarts and open folder windows close. Save your work first. Why it works: Windows hides known extensions by default, and attackers count on it. Ticket closed. (Resolution: extensions visible.)
+Save this for the next time you need it.
+#Security #Phishing #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

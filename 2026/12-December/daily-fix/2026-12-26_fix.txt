@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-26 (Saturday)
+POST TIME: 2:00 PM ET
+TITLE: NEW LAPTOP? WHICH WINDOWS IS IT?
+HOST: David (IT)
+IMAGE: 2026-12-26_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Don't guess the version. Ask Windows for the edition, version and build number in one go.
+
+Open PowerShell and run:
+Get-ComputerInfo |
+  Select-Object WindowsProductName, WindowsVersion, OsBuildNumber
+
+Heads up: Get-ComputerInfo can take ten seconds the first time you run it. Why it works: the build number is what update and support pages ask for. Ticket closed. (Resolution: version known.)
+#Windows11 #Inventory #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Don't guess the version. Ask Windows for the edition, version and build number in one go.
+
+Open PowerShell and run:
+Get-ComputerInfo |
+  Select-Object WindowsProductName, WindowsVersion, OsBuildNumber
+
+Heads up: Get-ComputerInfo can take ten seconds the first time you run it. Why it works: the build number is what update and support pages ask for. Ticket closed. (Resolution: version known.)
+Save this for the next time you need it.
+#Windows11 #Inventory #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

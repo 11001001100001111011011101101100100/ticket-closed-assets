@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-12 (Saturday)
+POST TIME: 2:00 PM ET
+TITLE: NETWORK STACK TOTALLY CONFUSED?
+HOST: David (IT)
+IMAGE: 2026-12-12_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+When nothing else works, reset the Winsock catalog and the IP stack, then reboot.
+
+Open Command Prompt as Administrator and run:
+netsh winsock reset
+netsh int ip reset
+
+Heads up: Custom network settings, including static IPs, may be reset. Note them first. Why it works: VPN clients and security tools can corrupt the network stack. Ticket closed. (Resolution: stack reset.)
+#Winsock #Networking #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+When nothing else works, reset the Winsock catalog and the IP stack, then reboot.
+
+Open Command Prompt as Administrator and run:
+netsh winsock reset
+netsh int ip reset
+
+Heads up: Custom network settings, including static IPs, may be reset. Note them first. Why it works: VPN clients and security tools can corrupt the network stack. Ticket closed. (Resolution: stack reset.)
+Save this for the next time you need it.
+#Winsock #Networking #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

@@ -1,0 +1,27 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-27 (Sunday)
+POST TIME: 2:00 PM ET
+TITLE: PC WON'T SLEEP OR KEEPS WAKING?
+HOST: David (IT)
+IMAGE: 2026-12-27_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Find out what is keeping it awake, and what woke it last.
+
+Open Command Prompt as Administrator and run:
+powercfg /requests
+powercfg /lastwake
+
+Heads up: Empty lists mean nothing is blocking sleep right now. Why it works: it names the app, driver or device holding Windows awake. Ticket closed. (Resolution: sleep restored.)
+#Power #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Find out what is keeping it awake, and what woke it last.
+
+Open Command Prompt as Administrator and run:
+powercfg /requests
+powercfg /lastwake
+
+Heads up: Empty lists mean nothing is blocking sleep right now. Why it works: it names the app, driver or device holding Windows awake. Ticket closed. (Resolution: sleep restored.)
+Save this for the next time you need it.
+#Power #Troubleshooting #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

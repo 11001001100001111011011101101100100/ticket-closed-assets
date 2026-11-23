@@ -1,0 +1,29 @@
+TICKET CLOSED: FIX OF THE DAY - 2026-12-29 (Tuesday)
+POST TIME: 2:00 PM ET
+TITLE: IS DEFENDER ACTUALLY TURNED ON?
+HOST: David (IT)
+IMAGE: 2026-12-29_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Don't trust the green icon. Check the service, real-time protection and when the definitions last updated.
+
+Open PowerShell as Administrator and run:
+Get-MpComputerStatus |
+  Select-Object AMServiceEnabled, RealTimeProtectionEnabled,
+  AntivirusSignatureLastUpdated
+
+Heads up: Another antivirus can put Defender in passive mode. Check which one is in charge. Why it works: it reports the real state, not what the tray icon shows. Ticket closed. (Resolution: Defender checked.)
+#Defender #Security #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Don't trust the green icon. Check the service, real-time protection and when the definitions last updated.
+
+Open PowerShell as Administrator and run:
+Get-MpComputerStatus |
+  Select-Object AMServiceEnabled, RealTimeProtectionEnabled,
+  AntivirusSignatureLastUpdated
+
+Heads up: Another antivirus can put Defender in passive mode. Check which one is in charge. Why it works: it reports the real state, not what the tray icon shows. Ticket closed. (Resolution: Defender checked.)
+Save this for the next time you need it.
+#Defender #Security #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed

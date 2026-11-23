@@ -1,0 +1,25 @@
+TICKET CLOSED: FIX OF THE DAY - 2027-01-18 (Monday)
+POST TIME: 2:00 PM ET
+TITLE: RECYCLE BIN FULL AND DISK TIGHT?
+HOST: David (IT)
+IMAGE: 2027-01-18_fix.jpg (1080x1350)
+TESTED: command logic reviewed, not run on a live endpoint.
+
+FACEBOOK CAPTION:
+Open it and check first. Then empty it from the command line.
+
+Open PowerShell and run:
+Clear-RecycleBin -Force
+
+Heads up: This is permanent and covers every drive. Check what's in it first. Why it works: deleted files still use space until the bin is emptied. Ticket closed. (Resolution: bin emptied.)
+#DiskSpace #Cleanup #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #TicketClosed
+
+INSTAGRAM CAPTION:
+Open it and check first. Then empty it from the command line.
+
+Open PowerShell and run:
+Clear-RecycleBin -Force
+
+Heads up: This is permanent and covers every drive. Check what's in it first. Why it works: deleted files still use space until the bin is emptied. Ticket closed. (Resolution: bin emptied.)
+Save this for the next time you need it.
+#DiskSpace #Cleanup #ITHumor #HelpDesk #SysAdmin #FixOfTheDay #ITSupport #TechHumor #ITLife #DesktopSupport #TicketClosed
