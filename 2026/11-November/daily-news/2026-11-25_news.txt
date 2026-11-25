@@ -1,0 +1,17 @@
+DATE: 2026-11-25
+FORMAT: 1080x1350 cartoon satire card (2026-11-25_news.jpg / .png), customer Gloria, host David, quote credit Dr. Pat Reboot
+HEADLINE: MICROSOFT GOES 'CODE RED' AFTER 24-HOUR M365 OUTAGE
+SUB: A Windows bug from July reportedly hid until the Nov 12 outage.
+SOURCE: https://www.reuters.com/business/microsoft-declares-code-red-after-historic-outage-internal-memos-show-2026-11-24 (Nov 24 report on internal "Code Red"); also https://www.paubox.com/blog/microsoft-outlook-and-teams-outage-lasts-12-hours (post-incident report: July defect in gateway servers, outage Nov 12-13, Exchange Online incident EX1550543, "not related to cyber or AI / agents"); https://corememo.org/business/microsoft-final-report-blames-july-code-change-for-november-365-outage/ (final report: load tests used older, lower-core-count hardware).
+CAVEAT: Reuters page was only seen as a search excerpt (fetch not attempted); the "Code Red" detail is corroborated by several outlets. Card text is satire; quote and bubbles are fictional. Outage itself was Nov 12-13, the Code Red news is Nov 24.
+
+FACEBOOK CAPTION:
+Satire from Ticket Closed: Daily News. Microsoft says a Windows defect added in July sat unnoticed until the Nov 12-13 Microsoft 365 outage that knocked out Exchange Online, Outlook, Teams and Copilot for about 24 hours, and it has now reportedly declared an internal "Code Red." No cyberattack, just a bug waiting for peak traffic. What's the longest a bug has hidden in your environment before it finally showed up? Follow for daily IT memes!
+#ITMemes #Microsoft365 #SysAdmin #HelpDesk #TicketClosed
+
+INSTAGRAM CAPTION:
+Satire from Ticket Closed: Daily News. Microsoft says a Windows defect added in July sat unnoticed until the Nov 12-13 Microsoft 365 outage that knocked out Exchange Online, Outlook, Teams and Copilot for about 24 hours, and it has now reportedly declared an internal "Code Red." No cyberattack, just a bug waiting for peak traffic. What's the longest a bug has hidden in your environment before it finally showed up? Follow for daily IT memes!
+#ITMemes #Microsoft365 #SysAdmin #HelpDesk #TicketClosed #ITHumor #TechSupport #Outlook #MicrosoftTeams #ITLife #Helpdesklife #DailyNews
+
+POST STATUS:
+PENDING (updated below after posting attempt)
