@@ -1,0 +1,16 @@
+DATE: 2026-11-26
+FORMAT: 1080x1350 cartoon satire card (2026-11-26_news.jpg / .png), customer Gloria, host David, quote credit Dr. Pat Reboot
+HEADLINE: SECURITY UPDATE DEMANDS LOGINS SIGN THEIR NAME; OLD APP FORGOT HOW
+SUB: NTLM signing change (KB5135557) may break some third-party logins.
+SOURCE: https://support.microsoft.com/help/5135557 ; https://www.theregister.com/security/2026/11/25/microsofts-ntlm-security-changes-trip-up-third-party-logins/5312085
+CAVEAT: Facts on the card come from the Microsoft KB page (KB5135557, CVE-2026-118737, NTLM signing). The Register article was seen by headline/URL only, not read in full. Gloria is drawn with the character factory (no portrait PNG in repo); David uses tools/david_character.png.
+FACEBOOK CAPTION:
+Satire from Ticket Closed: Daily News. Microsoft's November 2026 security updates (KB5135557, fixing CVE-2026-118737 in the Windows RPC Runtime) begin NTLM message-signing changes, and The Register reports some third-party logins are tripping over it. Unsigned logins had a good run. Has an old login app of yours ever quit right after a patch? Follow for daily IT memes!
+#ITMemes #SysAdmin #HelpDesk #Windows #TicketClosed
+
+INSTAGRAM CAPTION:
+Satire from Ticket Closed: Daily News. Microsoft's November 2026 security updates (KB5135557, fixing CVE-2026-118737 in the Windows RPC Runtime) begin NTLM message-signing changes, and The Register reports some third-party logins are tripping over it. Unsigned logins had a good run. Has an old login app of yours ever quit right after a patch? Follow for daily IT memes!
+#ITMemes #SysAdmin #HelpDesk #Windows #TicketClosed #ITHumor #TechSupport #Microsoft #NTLM #ITLife #DailyNews
+
+POST STATUS:
+PENDING
