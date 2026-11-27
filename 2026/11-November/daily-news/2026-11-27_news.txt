@@ -10,4 +10,4 @@ Satire from Ticket Closed: Daily News. The real news: on Nov. 22, OpenRouter sai
 IG CAPTION:
 Satire from Ticket Closed: Daily News. The real news: on Nov. 22, OpenRouter said it off-boarded three inference providers and removed 125 endpoints from Zero Data Retention (ZDR) eligibility after researchers reported data-processing incidents. The IT lesson hasn't changed: a "zero retention" label is not the same as a verified network path. What's the best "but it says it's secure" claim you've ever had to audit? Follow for daily IT memes! #ITHumor #HelpDesk #SysAdmin #AI #CyberSecurity #TicketClosed #ITSupport #TechMemes #DataPrivacy #ITLife #DailyNews #Satire
 
-POST STATUS: PENDING
+POST STATUS: POSTED 2026-11-27 via Windsor (manual interactive run, not the 6 AM job). Facebook post id 1514255875100332_122110701123552627. Instagram media id 18080800934743337.
