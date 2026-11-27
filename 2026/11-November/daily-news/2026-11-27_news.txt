@@ -1,0 +1,13 @@
+Date: 2026-11-27
+Format: Daily News satire card, 1080x1350 (customer: Gloria, expert: Dr. Pat Reboot)
+Headline: AI ROUTER PULLS 'ZERO DATA RETENTION' LABEL FROM 125 ENDPOINTS
+Source: https://openrouter.ai/blog/announcements/data-processing-incidents-on-inference-providers/ (OpenRouter notice, Nov 22 2026); https://www.techrepublic.com/article/news-openrouter-ai-prompt-leaks-zero-data-retention/ (TechRepublic, Nov 25 2026, cites Dragos investigation)
+Facts used: OpenRouter off-boarded three providers and removed 125 endpoints from Zero Data Retention (ZDR) eligibility (Nov 22); researchers (Dragos) had sent nearly 2 million canary test prompts July-Nov 2026. Providers are not named on the card.
+
+FB CAPTION:
+Satire from Ticket Closed: Daily News. The real news: on Nov. 22, OpenRouter said it off-boarded three inference providers and removed 125 endpoints from Zero Data Retention (ZDR) eligibility after researchers reported data-processing incidents. The IT lesson hasn't changed: a "zero retention" label is not the same as a verified network path. What's the best "but it says it's secure" claim you've ever had to audit? Follow for daily IT memes! #ITHumor #HelpDesk #SysAdmin #AI #CyberSecurity #TicketClosed
+
+IG CAPTION:
+Satire from Ticket Closed: Daily News. The real news: on Nov. 22, OpenRouter said it off-boarded three inference providers and removed 125 endpoints from Zero Data Retention (ZDR) eligibility after researchers reported data-processing incidents. The IT lesson hasn't changed: a "zero retention" label is not the same as a verified network path. What's the best "but it says it's secure" claim you've ever had to audit? Follow for daily IT memes! #ITHumor #HelpDesk #SysAdmin #AI #CyberSecurity #TicketClosed #ITSupport #TechMemes #DataPrivacy #ITLife #DailyNews #Satire
+
+POST STATUS: PENDING
