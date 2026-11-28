@@ -1,0 +1,14 @@
+DATE: 2026-11-28
+FORMAT: 1080x1350 (4:5) Daily News satire card, customer: Sam from Sales
+HEADLINE: ICLOUD MAIL DELIVERS YOUR MORNING EMAILS JUST IN TIME FOR LUNCH
+SOURCE: Apple System Status (iCloud Mail incident, Nov 27 2026, 7 AM-1 PM PST, "Users experienced delays with incoming mail", marked resolved) as reported by https://adigitalboom.com/news/icloud-mail-incoming-delay-november-27-2026/ (Nov 28 2026). Apple gave no cause. Note: Apple's status page entry was seen only as "available" now; the incident wording comes from the Digital Boom report quoting Apple.
+
+FB CAPTION:
+Satire from Ticket Closed: Daily News. Apple's System Status page logged a six-hour iCloud Mail incident on November 27 (7 AM to 1 PM Pacific) where some users experienced delays with incoming mail. It has since been marked resolved. Apple gave no cause. Meanwhile, every salesperson on Earth refreshed their inbox 400 times. What's your go-to line when someone says "I sent it this morning"? Follow for daily IT memes!
+#ITHumor #HelpDesk #SysAdmin #iCloud #TechSupport #TicketClosed
+
+IG CAPTION:
+Satire from Ticket Closed: Daily News. Apple's System Status page logged a six-hour iCloud Mail incident on November 27 (7 AM to 1 PM Pacific) where some users experienced delays with incoming mail. It has since been marked resolved. Apple gave no cause. Meanwhile, every salesperson on Earth refreshed their inbox 400 times. What's your go-to line when someone says "I sent it this morning"? Follow for daily IT memes!
+#ITHumor #HelpDesk #SysAdmin #iCloud #TechSupport #TicketClosed #ITLife #ITMemes #Apple #EmailProblems #TechHumor #Sysadminlife
+
+POST STATUS: NOT POSTED YET (updated below after posting)
